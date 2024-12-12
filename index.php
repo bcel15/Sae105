@@ -2,6 +2,10 @@
     <body>
         <h1> bonjour petunia </h1>
         <h1> bonjour ocean </h1>
+<<<<<<< Updated upstream
         <h1> 90000 euros ou je supprime  </h1>
+=======
+        <p> caca </p>
+>>>>>>> Stashed changes
 </body>
 </html>
