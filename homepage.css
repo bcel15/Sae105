@@ -3,18 +3,18 @@ body {
     font-family: 'Georgia', serif; /* Police élégante mais sobre */
     margin: 0;
     padding: 0;
-    background-color: #faf3e0; /* Couleur d'arrière-plan chaleureuse */
-    color: #4a4a4a; /* Texte en gris légèrement adouci */
+    background-color: #e6f7ff; /* Bleu pastel clair pour une ambiance apaisante */
+    color: #333; /* Texte en gris foncé pour un bon contraste */
     line-height: 1.8;
 }
 
 header {
-    background-color: #b85c38; /* Ton chaud pour le header */
+    background-color: #4da6ff; /* Bleu clair pour un header accueillant */
     color: #ffffff; /* Texte blanc */
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-bottom: 5px solid #8c3b24; /* Liseré pour une touche de style */
+    border-bottom: 5px solid #1a75ff; /* Liseré pour une touche de style */
 }
 
 header h1 {
@@ -45,14 +45,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #8c3b24; /* Couleur de survol */
+    background-color: #1a75ff; /* Couleur de survol */
 }
 
 main {
     padding: 30px;
     max-width: 1200px;
     margin: 20px auto;
-    background-color: #ffffff; /* Fond blanc pour contraster avec le ton chaleureux */
+    background-color: #ffffff; /* Fond blanc pour contraster avec le bleu pastel */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 }
@@ -62,13 +62,13 @@ section {
     padding: 25px;
     border: none;
     border-radius: 15px;
-    background-color: #ffe6cc; /* Fond chaleureux dans des tons doux */
+    background-color: #cceeff; /* Bleu pastel clair pour les sections */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     text-align: center;
-    color: #b85c38; /* Ton chaud pour les titres */
+    color: #1a75ff; /* Bleu plus soutenu pour les titres */
     margin-bottom: 20px;
     font-size: 1.8em;
 }
@@ -87,7 +87,7 @@ figure {
 
 video {
     max-width: 90%;
-    border: 4px solid #b85c38; /* Bordure élégante autour de la vidéo */
+    border: 4px solid #4da6ff; /* Bordure élégante autour de la vidéo */
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -95,14 +95,14 @@ video {
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #6a6a6a; /* Ton discret pour les légendes */
+    color: #555; /* Ton discret pour les légendes */
 }
 
 #contact, #about {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #ffe6cc; /* Même ton que les sections */
+    background-color: #cceeff; /* Même ton que les sections */
     border-radius: 15px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -120,11 +120,11 @@ figcaption {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #b85c38;
+    background-color: #4da6ff;
     color: #ffffff;
     font-size: 1em;
     margin-top: 20px;
-    border-top: 5px solid #8c3b24; /* Liseré supérieur pour démarcation */
+    border-top: 5px solid #1a75ff; /* Liseré supérieur pour démarcation */
 }
 
 footer div {
