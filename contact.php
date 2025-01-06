@@ -10,8 +10,6 @@
     <title>Contact - Magasin de Parfums</title>
     <!-- Lien vers la feuille de style principale -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Lien vers la feuille de style spécifique à la page contact -->
-    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <header>
