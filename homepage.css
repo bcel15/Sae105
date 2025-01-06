@@ -73,14 +73,14 @@ main {
 section {
     margin-bottom: 50px;
     padding: 40px;
-    background-color: #ffffff; /* Fond blanc pour une ambiance neutre */
+    background-color: #e6f7ff; /* Bleu pastel doux pour une ambiance tranquille */
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     text-align: center;
-    color: #333333; /* Texte plus foncé pour les titres */
+    color: #007bb5; /* Bleu clair pour les titres */
     margin-bottom: 20px;
     font-size: 2em;
 }
@@ -107,7 +107,7 @@ figcaption {
 }
 
 footer {
-    background-color: #333333; /* Pied de page avec couleur sombre pour la lisibilité */
+    background-color: #4da6ff; /* Bleu clair pour le pied de page */
     color: #ffffff;
     text-align: center;
     padding: 20px;
