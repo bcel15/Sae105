@@ -1,33 +1,35 @@
-/* Styles globaux pour la page d'accueil */
+/* Styles globaux pour le site */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8;
-    color: #333;
+    background-color: #fcf7e3; /* Fond clair et doux */
+    color: #456a73; /* Texte sombre et lisible */
     line-height: 1.6;
 }
 
 header {
-    background-color: transparent; /* Retirer le fond bleu foncé */
-    color: #ffffff;
+    background-color: transparent; /* Pas de fond coloré */
+    color: #fcf7e3; /* Texte clair */
     padding: 20px 0;
     text-align: center;
-    box-shadow: none; /* Retirer l'ombre du header */
+    box-shadow: none; /* Retirer l'ombre */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3.5em; /* Titre large */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre douce pour le titre */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 10px 0;
     display: flex;
     justify-content: center;
-    background-color: #013a63;
+    background-color: #a6bbb2; /* Bleu-gris clair */
     border-radius: 8px;
 }
 
@@ -37,7 +39,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff; /* Liens blancs */
     padding: 10px 15px;
     display: block;
     border-radius: 5px;
@@ -45,14 +47,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #005f99;
+    background-color: #66959b; /* Couleur de survol des liens */
 }
 
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: #f3ece2; /* Fond des sections principales */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -60,14 +62,14 @@ main {
 section {
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #dce3e8;
+    border: 1px solid #d8ddd7;
     border-radius: 5px;
-    background-color: #f9fcff;
+    background-color: #feecba; /* Fond des sections : couleur douce */
 }
 
 h2 {
     text-align: center;
-    color: #001f3f;
+    color: #456a73;
     margin-bottom: 15px;
 }
 
@@ -83,28 +85,27 @@ figure {
 
 video {
     max-width: 100%;
-    border: 3px solid #001f3f;
+    border: 3px solid #456a73;
     border-radius: 5px;
 }
 
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #555;
+    color: #66959b;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #001f3f;
-    color: #ffffff;
+    background-color: #66959b;
+    color: #fcf7e3;
     margin-top: 20px;
     font-size: 0.9em;
 }
 
-/* Styles pour la section breadcrumb */
 .breadcrumb {
-    background-color: #a8c7d5; /* Couleur de fond */
+    background-color: #acdee3;
     padding: 10px 20px;
 }
 
@@ -124,13 +125,13 @@ footer {
 }
 
 .breadcrumb nav ul li::after {
-    content: "→"; /* Flèche entre les éléments */
+    content: "→";
     margin-left: 15px;
     color: white;
 }
 
 .breadcrumb nav ul li:last-child::after {
-    content: ""; /* Supprime la flèche après le dernier élément */
+    content: "";
 }
 
 .breadcrumb nav ul li a {
@@ -141,10 +142,10 @@ footer {
 }
 
 .breadcrumb nav ul li a:hover {
-    color: #f5f5f5; /* Couleur au survol */
+    color: #f5f5f5;
 }
 
 .breadcrumb nav ul li.current {
     font-weight: bold;
-    color: white; /* Couleur pour l'élément actif */
+    color: white;
 }
