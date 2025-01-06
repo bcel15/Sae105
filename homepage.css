@@ -12,24 +12,20 @@ header {
     position: relative;
     height: 100vh; /* Hauteur pleine de l'écran */
     width: 100%;
-    overflow: hidden;
 }
 
-header video {
-    object-fit: cover;
+.header-background {
+    background-image: url('photo cp.jpg'); /* Image de fond */
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; /* Placer la vidéo en arrière-plan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 3.5em;
     color: #ffffff;
     text-align: center;
@@ -107,7 +103,7 @@ figcaption {
 }
 
 footer {
-    background-color: #4da6ff; /* Bleu clair pour le pied de page */
+    background-color: #007bb5; /* Bleu doux pour le pied de page */
     color: #ffffff;
     text-align: center;
     padding: 20px;
