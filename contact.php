@@ -38,40 +38,50 @@
     </nav>
 
     <main>
-        <section class="contact-content">
-            <div class="contact-left">
-                <h2>Notre Adresse</h2>
-                <!-- Plan intégré via Google Maps -->
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.95373631590438!3d-37.81627944202196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fc351f69e0f!2sSome%20Address!5e0!3m2!1sen!2sfr!4v1692124678222!5m2!1sen!2sfr" 
-                    width="100%" 
-                    height="300" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-                <p>123 Rue des Parfums, Ville, Code Postal</p>
+        <section class="hero-contact">
+            <!-- Section d'en-tête visuelle -->
+            <div class="hero-image">
+                <h2>BESOIN D'UNE INFO ? NOUS SOMMES LÀ POUR Y RÉPONDRE !</h2>
             </div>
+        </section>
 
-            <div class="contact-right">
-                <h2>Contactez-Nous</h2>
-                <!-- Informations de contact -->
-                <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
-                <p><strong>Email :</strong> contact@parfumshop.fr</p>
-                <div class="social-links">
-                    <!-- Liens vers les réseaux sociaux avec leurs icônes -->
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img src="img/facebook.png" alt="Facebook">
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank">
-                        <img src="img/instagram.png" alt="Instagram">
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank">
-                        <img src="img/twitter.png" alt="Twitter">
-                    </a>
-                </div>
-            </div>
+        <section class="breadcrumb">
+            <!-- Fil d'Ariane -->
+            <p><a href="index.php">Accueil</a> > <a href="contact.php">Contact</a></p>
+        </section>
+
+        <section class="contact-form">
+            <!-- Formulaire de contact principal -->
+            <h2>NOUS CONTACTER</h2>
+            <p>Une question sur nos parfums, nos offres ou nos services ? Nos conseillers vous aideront avec plaisir !</p>
+
+            <form action="send_contact.php" method="post">
+                <label for="prenom">Prénom *</label>
+                <input type="text" id="prenom" name="prenom" required>
+
+                <label for="nom">Nom *</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="adresse">Adresse postale</label>
+                <textarea id="adresse" name="adresse"></textarea>
+
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone">
+
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <label for="informations">Souhaitez-vous être informé(e) de nos nouvelles offres ?</label>
+                <select id="informations" name="informations">
+                    <option value="oui">Oui</option>
+                    <option value="non">Non</option>
+                </select>
+
+                <button type="submit">Envoyer</button>
+            </form>
         </section>
     </main>
 
@@ -87,3 +97,4 @@
     </footer>
 </body>
 </html>
+
