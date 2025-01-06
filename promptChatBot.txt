@@ -1,0 +1,41 @@
+﻿Demander en français à ChatGPT de coder un site web
+
+1 PRÉREQUIS
+
+J'aimerais que vous agissiez en tant que développeur web frontal. Pour ce projet, vous coderez un nouveau site web en utilisant HTML, CSS et un peu de PHP. Le site doit être adapté aux mobiles et responsive. Il s'agira d'un site web pour un magasin vendant du matériel de roller hockey. Le site web aura 6 pages avec la même mise en page : une page d’accueil, une page de catalogue montrant les produits, une page montrant les détails d'un produit, une page de contact, une page de mentions légales et un panier d'achat. Toutes les pages partageront la même mise en page : un en-tête, un menu de navigation et un pied de page. L'en-tête contiendra un logo flottant à gauche, un titre centré et un lien vers le panier d'achat à droite. Ensuite, il y aura un menu de navigation central avec un lien vers la page d'accueil, la page des produits et la page de contact. Le pied de page présentera au centre un copyright avec le nom de la boutique et un petit menu à droite avec un lien vers la page de contact et la page légale. Toutes les pages css seront stockées dans un sous-répertoire appelé « css ». Toutes les pages web auront l'extension « php » au lieu de « html ». Toutes les images seront stockées dans un sous-répertoire appelé « img ». Ne fournissez aucune explication pour le code que vous écrivez. Avez-vous tout compris ? Veuillez répondre par oui ou par non si vous comprenez toutes les exigences.
+
+2 Page d'index
+
+Ma première demande est « Créer la page d'index du site web ». Cette page accueille le client sur le site web. Elle comporte un lien vers une page styles.css qui sera partagée pour l'ensemble du site et un autre lien vers une page css spécifique pour l'affichage de cette page. Vous devez inclure deux sections de contenu sur cette page, chacune avec une balise H2 pour commencer la section, ainsi que plusieurs balises de paragraphe après cela avec un texte pertinent sur le matériel de roller hockey. Vous devez également inclure une vidéo d'un match de roller hockey, accompagnée d'une légende expliquant le contenu de la vidéo.
+
++ Continue
+
+3 Page de style (nécessaire ?)
+
+Pouvez-vous également créer la feuille de style du site web appelée styles.css qui va avec ?
+
+4 Page de catalogue
+
+Ma prochaine demande est « Créer la page catalogue du site web ». La page contiendra un lien vers la page styles.css que vous avez créée précédemment et un autre lien vers une page css spécifique pour l'affichage du catalogue. L'en-tête, le menu et le pied de page seront identiques à ceux de la page d'index. La partie centrale de la page sera un tableau redimensionné de 9 produits de roller hockey. Pour chaque produit, vous afficherez une image, un nom, un prix en euros et un lien vers la page du produit.
+
+5 Pages de produits
+
+Ma prochaine demande est la suivante : « Créer une page pour afficher les détails d'un produit (les rollers) ». La page contiendra un lien vers la page styles.css que vous avez créée précédemment et un autre lien vers une page css spécifique pour l'affichage du produit. L'en-tête, le menu et le pied de page seront identiques à ceux de la page d'index. Dans la partie centrale de la page, vous afficherez à gauche une image du produit et à droite une description du produit et  formulaire HTML avec le nom du produit, le prix en euros et un menu pour sélectionner la taille du produit. Vous ajouterez également un bouton pour ajouter ce produit au panier.
+
+6 page de contact
+
+Ma prochaine demande est « Créer la page de contact du site web ». La page contiendra un lien vers la page styles.css que vous avez créée précédemment et un autre lien vers une page css spécifique pour l'affichage du contenu de cette page. L'en-tête, le menu et le pied de page seront identiques à ceux de la page d'index. Dans la partie centrale de la page, vous afficherez à gauche un plan avec l'adresse du magasin et à droite, un numéro de téléphone, une adresse mail et les liens vers les réseaux sociaux avec les logos (Facebook, Instagram, X-twitter).
+
+7 page des mentions légales
+
+Ma prochaine demande est « Créer la page des mentions légales du site web ». La page contiendra un lien vers la page styles.css que vous avez créée précédemment et un autre lien vers une page css spécifique pour l'affichage du contenu de cette page. L'en-tête, le menu et le pied de page seront identiques à ceux de la page d'index. Dans la partie centrale de la page, vous devez inclure plusieurs sections du contenu de cette page, chacune avec une balise H2 pour commencer la section, ainsi que plusieurs balises de paragraphe après cela avec un texte pertinent sur les mentions légales pour une boutique de vente en ligne.
+
+8 Panier d'achat
+
+Ma prochaine demande est « Créez la page du panier d'achat ». La page contiendra un lien vers la page styles.css que vous avez créée précédemment et un autre lien vers une page css spécifique pour l'affichage du contenu de cette page. L'en-tête, le menu et le pied de page seront identiques à ceux de la page d'index. Ajoutez du code PHP qui récupérera les paramètres de la requête CGI (envoyés avec une requête GET ou POST) d’ajout d’un produit au panier, les mettra dans un tableau et stockera le tableau dans une variable de session.
+Ensuite, dans la partie centrale de la page, le code affichera la variable de session sous la forme d'une liste de produits avec un peu de code HTML. 
+Pour chaque produit, une image, son nom et son prix seront affichés. Ajoutez un bouton et du code PHP pour supprimer le produit.
+Une variable calculera la somme totale des produits.
+À la fin de la partie principale, vous affichez le montant total du panier et un bouton pour payer la commande.
+
+!!! ChatGPT ne peut pas envoyer les images des réseaux sociaux !
