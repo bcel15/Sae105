@@ -8,6 +8,8 @@
     <title>Accueil - CP Parfums</title>
     <!-- Lien vers le fichier CSS global partagé par tout le site -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Lien vers le fichier CSS spécifique à cette page -->
+    <link rel="stylesheet" href="homepage.css"> 
 </head>
 <body>
     <header>
