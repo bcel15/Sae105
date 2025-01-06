@@ -1,0 +1,20 @@
+
+/* Section des réseaux sociaux */
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-media img {
+    width: 40px; /* Taille des icônes */
+    height: 40px;
+    filter: grayscale(100%) brightness(0) sepia(100%) hue-rotate(190deg) saturate(400%);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Animation au survol */
+.social-media a:hover img {
+    transform: translateY(-5px); /* Remonte légèrement */
+    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%);
+}
