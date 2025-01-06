@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Bleu clair pour un arrière-plan apaisant */
+    color: #333; /* Couleur du texte principale en gris foncé */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #001f3f; /* Bleu foncé pour un header élégant */
+    color: #ffffff; /* Texte blanc pour le contraste */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fond blanc pour contraster avec le bleu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #dce3e8; /* Ligne douce pour structurer les sections */
+    border-radius: 5px;
+    background-color: #f9fcff; /* Fond légèrement bleuté pour les sections */
+}
+
+h2 {
+    text-align: center; /* Centrage des titres */
+    color: #001f3f; /* Même bleu foncé que le header */
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify; /* Alignement justifié pour une belle lecture */
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+video {
+    max-width: 100%;
+    border: 3px solid #001f3f; /* Bordure en bleu foncé autour de la vidéo */
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555; /* Gris pour une discrétion élégante */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001f3f;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
