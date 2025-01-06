@@ -8,8 +8,6 @@
     <title>Accueil - CP Parfums</title>
     <!-- Lien vers le fichier CSS global partagé par tout le site -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Lien vers le fichier CSS spécifique à cette page -->
-    <link rel="stylesheet" href="homepage.css"> 
 </head>
 <body>
     <header>
@@ -20,8 +18,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="#contact">Informations</a></li>
+                <li><a href="catalogue.php">Catalogue</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">A propos</a></li>
             </ul>
         </nav>
     </header>
@@ -73,7 +72,10 @@
         <!-- Section À propos -->
         <section id="about">
             <h2>À propos de CP Parfums</h2>
-            <p>CP Parfums est une maison de parfum dédiée à créer des expériences olfactives uniques et inoubliables. Nous sommes fiers de notre héritage et de notre engagement envers la qualité.</p>
+            <ul>
+                <li>Date de création : 20 décembre 2024</li>
+                <li>Créateurs : Océane Dickson et Betul Celikoz</li>
+            </ul>
         </section>
     </main>
 
@@ -89,7 +91,10 @@
             </div>
             <div>
                 <h3>À propos</h3>
-                <p>Découvrez l'univers de CP Parfums et notre passion pour les fragrances d'exception.</p>
+                <ul>
+                    <li>Date de création : 20 décembre 2024</li>
+                    <li>Créateurs : Océane Dickson et Betül Celikoz</li>
+                </ul>
             </div>
         </div>
         <p style="text-align: center;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
