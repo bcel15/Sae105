@@ -64,9 +64,9 @@
                 <p><strong>Email :</strong> <a href="mailto:contact@magasindeparfums.fr">contact@magasindeparfums.fr</a></p>
                 <h4>Suivez-nous :</h4>
                 <div class="social-media">
-                    <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
-                    <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
-                    <a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="logo_facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="logo_insta.webp" alt="Instagram"></a>
+                    <a href="#"><img src="logo_x.webp" alt="X"></a>
                 </div>
             </div>
         </section>
