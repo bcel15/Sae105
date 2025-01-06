@@ -1,26 +1,57 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8; /* Bleu clair pour un arrière-plan apaisant */
-    color: #333; /* Couleur du texte principale en gris foncé */
+    background-color: #f0f4f8;
+    color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #001f3f; /* Bleu foncé pour un header élégant */
-    color: #ffffff; /* Texte blanc pour le contraste */
+    background-color: #001f3f;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    background-color: #013a63;
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #005f99;
+}
+
 main {
     padding: 20px;
     max-width: 1200px;
-    margin: 0 auto;
-    background-color: #ffffff; /* Fond blanc pour contraster avec le bleu */
+    margin: 20px auto;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -28,20 +59,20 @@ main {
 section {
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #dce3e8; /* Ligne douce pour structurer les sections */
+    border: 1px solid #dce3e8;
     border-radius: 5px;
-    background-color: #f9fcff; /* Fond légèrement bleuté pour les sections */
+    background-color: #f9fcff;
 }
 
 h2 {
-    text-align: center; /* Centrage des titres */
-    color: #001f3f; /* Même bleu foncé que le header */
+    text-align: center;
+    color: #001f3f;
     margin-bottom: 15px;
 }
 
 p {
     margin: 10px 0;
-    text-align: justify; /* Alignement justifié pour une belle lecture */
+    text-align: justify;
 }
 
 figure {
@@ -51,14 +82,14 @@ figure {
 
 video {
     max-width: 100%;
-    border: 3px solid #001f3f; /* Bordure en bleu foncé autour de la vidéo */
+    border: 3px solid #001f3f;
     border-radius: 5px;
 }
 
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #555; /* Gris pour une discrétion élégante */
+    color: #555;
 }
 
 footer {
@@ -69,3 +100,4 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
+

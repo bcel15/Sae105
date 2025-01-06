@@ -20,9 +20,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">A propos</a></li>
+                <li><a href="catalogue.php">Catalogue</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">A propos</a></li>
             </ul>
         </nav>
     </header>
@@ -60,11 +60,40 @@
                 <figcaption>Découvrez notre histoire, nos valeurs, et ce qui rend nos parfums uniques dans cette courte vidéo.</figcaption>
             </figure>
         </section>
+
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question ou information, vous pouvez nous joindre :</p>
+            <ul>
+                <li>Téléphone : 01 23 45 67 89</li>
+                <li>Email : contact@cpparfums.com</li>
+            </ul>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about">
+            <h2>À propos de CP Parfums</h2>
+            <p>CP Parfums est une maison de parfum dédiée à créer des expériences olfactives uniques et inoubliables. Nous sommes fiers de notre héritage et de notre engagement envers la qualité.</p>
+        </section>
     </main>
 
     <footer>
         <!-- Informations de copyright dans le pied de page -->
-        <p>&copy; 2024 CP Parfums. Tous droits réservés.</p>
+        <div style="display: flex; justify-content: space-between; padding: 20px;">
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li>Téléphone : 01 23 45 67 89</li>
+                    <li>Email : contact@cpparfums.com</li>
+                </ul>
+            </div>
+            <div>
+                <h3>À propos</h3>
+                <p>Découvrez l'univers de CP Parfums et notre passion pour les fragrances d'exception.</p>
+            </div>
+        </div>
+        <p style="text-align: center;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
