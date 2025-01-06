@@ -50,38 +50,27 @@
             <p><a href="index.php">Accueil</a> > <a href="contact.php">Contact</a></p>
         </section>
 
-        <section class="contact-form">
-            <!-- Formulaire de contact principal -->
-            <h2>NOUS CONTACTER</h2>
-            <p>Une question sur nos parfums, nos offres ou nos services ? Nos conseillers vous aideront avec plaisir !</p>
+        <section class="contact-details">
+            <!-- Détails de contact avec deux colonnes -->
+            <div class="contact-left">
+                <!-- Carte et adresse -->
+                <h3>Notre Adresse</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999262485588!2d2.294481315674175!3d48.8588440792871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877f23e6f%3A0x2d62e1d3c4e1ec6c!2sTour%20Eiffel!5e0!3m2!1sen!2sfr!4v1618330547821!5m2!1sen!2sfr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p>12 Rue des Parfums, 75000 Paris, France</p>
+            </div>
 
-            <form action="send_contact.php" method="post">
-                <label for="prenom">Prénom *</label>
-                <input type="text" id="prenom" name="prenom" required>
-
-                <label for="nom">Nom *</label>
-                <input type="text" id="nom" name="nom" required>
-
-                <label for="email">Email *</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="adresse">Adresse postale</label>
-                <textarea id="adresse" name="adresse"></textarea>
-
-                <label for="telephone">Téléphone</label>
-                <input type="tel" id="telephone" name="telephone">
-
-                <label for="message">Votre message</label>
-                <textarea id="message" name="message" rows="5"></textarea>
-
-                <label for="informations">Souhaitez-vous être informé(e) de nos nouvelles offres ?</label>
-                <select id="informations" name="informations">
-                    <option value="oui">Oui</option>
-                    <option value="non">Non</option>
-                </select>
-
-                <button type="submit">Envoyer</button>
-            </form>
+            <div class="contact-right">
+                <!-- Informations de contact -->
+                <h3>Contactez-nous</h3>
+                <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+                <p><strong>Email :</strong> <a href="mailto:contact@magasindeparfums.fr">contact@magasindeparfums.fr</a></p>
+                <h4>Suivez-nous :</h4>
+                <div class="social-media">
+                    <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -97,4 +86,3 @@
     </footer>
 </body>
 </html>
-
