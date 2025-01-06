@@ -101,3 +101,49 @@ footer {
     font-size: 0.9em;
 }
 
+/* Styles pour la section breadcrumb */
+.breadcrumb {
+    background-color: #a8c7d5; /* Couleur de fond */
+    padding: 10px 20px;
+}
+
+.breadcrumb nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.breadcrumb nav ul li {
+    position: relative;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.breadcrumb nav ul li::after {
+    content: "→"; /* Flèche entre les éléments */
+    margin-left: 15px;
+    color: white;
+}
+
+.breadcrumb nav ul li:last-child::after {
+    content: ""; /* Supprime la flèche après le dernier élément */
+}
+
+.breadcrumb nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    transition: color 0.3s;
+}
+
+.breadcrumb nav ul li a:hover {
+    color: #f5f5f5; /* Couleur au survol */
+}
+
+.breadcrumb nav ul li.current {
+    font-weight: bold;
+    color: white; /* Couleur pour l'élément actif */
+}
