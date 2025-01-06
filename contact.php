@@ -9,9 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Magasin de Parfums</title>
     <!-- Lien vers la feuille de style principale -->
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Lien vers la feuille de style spécifique à la page contact -->
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -38,38 +36,37 @@
     </nav>
 
     <main>
-        <section class="contact-content">
+        <section class="hero-contact">
+            <!-- Section d'en-tête visuelle -->
+            <div class="hero-image">
+                <h2>BESOIN D'UNE INFO ? NOUS SOMMES LÀ POUR Y RÉPONDRE !</h2>
+            </div>
+        </section>
+
+        <section class="breadcrumb">
+            <!-- Fil d'Ariane -->
+            <p><a href="index.php">Accueil</a> > <a href="contact.php">Contact</a></p>
+        </section>
+
+        <section class="contact-details">
+            <!-- Détails de contact avec deux colonnes -->
             <div class="contact-left">
-                <h2>Notre Adresse</h2>
-                <!-- Plan intégré via Google Maps -->
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.95373631590438!3d-37.81627944202196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fc351f69e0f!2sSome%20Address!5e0!3m2!1sen!2sfr!4v1692124678222!5m2!1sen!2sfr" 
-                    width="100%" 
-                    height="300" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-                <p>123 Rue des Parfums, Ville, Code Postal</p>
+                <!-- Carte et adresse -->
+                <h3>Notre Adresse</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999262485588!2d2.294481315674175!3d48.8588440792871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877f23e6f%3A0x2d62e1d3c4e1ec6c!2sTour%20Eiffel!5e0!3m2!1sen!2sfr!4v1618330547821!5m2!1sen!2sfr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p>12 Rue des Parfums, 75000 Paris, France</p>
             </div>
 
             <div class="contact-right">
-                <h2>Contactez-Nous</h2>
                 <!-- Informations de contact -->
+                <h3>Contactez-nous</h3>
                 <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
-                <p><strong>Email :</strong> contact@parfumshop.fr</p>
-                <div class="social-links">
-                    <!-- Liens vers les réseaux sociaux avec leurs icônes -->
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img src="img/facebook.png" alt="Facebook">
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank">
-                        <img src="img/instagram.png" alt="Instagram">
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank">
-                        <img src="img/twitter.png" alt="Twitter">
-                    </a>
+                <p><strong>Email :</strong> <a href="mailto:contact@magasindeparfums.fr">contact@magasindeparfums.fr</a></p>
+                <h4>Suivez-nous :</h4>
+                <div class="social-media">
+                    <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a>
                 </div>
             </div>
         </section>
