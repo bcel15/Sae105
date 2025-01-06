@@ -1,4 +1,4 @@
-/* Styles globaux pour la page d'accueil inspirée de Dior */
+/* Styles globaux pour la page d'accueil */
 body {
     font-family: 'Georgia', serif; /* Police élégante et simple */
     margin: 0;
@@ -15,7 +15,7 @@ header {
 }
 
 .header-background {
-    background-image: url('photo cp.jpg'); /* Image de fond */
+    background-image: url('photo cp parfums.jpg'); /* Chemin vers l'image téléchargée */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -58,69 +58,4 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.6); /* Changement de couleur au survol */
-}
-
-main {
-    padding: 60px 20px; /* Espacement large autour du contenu */
-    max-width: 1200px;
-    margin: 20px auto;
-}
-
-section {
-    margin-bottom: 50px;
-    padding: 40px;
-    background-color: #e6f7ff; /* Bleu pastel doux pour une ambiance tranquille */
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    text-align: center;
-    color: #007bb5; /* Bleu clair pour les titres */
-    margin-bottom: 20px;
-    font-size: 2em;
-}
-
-section p {
-    text-align: justify;
-    font-size: 1.2em;
-    line-height: 1.8;
-}
-
-figure {
-    text-align: center;
-    margin: 20px 0;
-}
-
-video {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-figcaption {
-    font-style: italic;
-    color: #555;
-}
-
-footer {
-    background-color: #007bb5; /* Bleu doux pour le pied de page */
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    font-size: 1em;
-    margin-top: 40px;
-}
-
-footer h3 {
-    margin-bottom: 15px;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    margin: 5px 0;
-    font-size: 1em;
 }
