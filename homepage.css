@@ -27,7 +27,7 @@ header {
 
 header h1 {
     font-size: 3.5em;
-    color: #20494f; /* Bleu pâle un peu plus foncé */
+    color: #92c5cd; /* Bleu pâle un peu plus foncé */
     text-align: center;
     font-weight: bold;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Ombre douce */
