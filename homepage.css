@@ -27,11 +27,12 @@ header {
 
 header h1 {
     font-size: 3.5em;
-    color: #ffffff;
+    color: #66959b; /* Bleu pâle un peu plus foncé */
     text-align: center;
     font-weight: bold;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Ombre douce */
 }
+
 
 nav ul {
     list-style: none;
