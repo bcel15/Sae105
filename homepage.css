@@ -1,8 +1,9 @@
-/* Styles spécifiques à la page d'accueil inspirée de Dior */body {
+/* Styles spécifiques à la page d'accueil inspirée de Dior */
+body {
     font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #f3ece2; /* Uniformise le fond avec le beige */
     color: #444;
     line-height: 1.6;
 }
@@ -22,6 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: none; /* Suppression de l'ombre sur l'image */
 }
 
 header h1 {
@@ -68,9 +70,9 @@ main {
 section {
     margin-bottom: 50px;
     padding: 20px;
-    background-color: #f3ece2;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f3ece2; /* Même couleur que le fond du body */
+    border-radius: 12px; /* Garde des bords arrondis pour un style doux */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre rétablie pour les sections */
 }
 
 section h2 {
@@ -104,13 +106,12 @@ figcaption {
 
 /* Pied de page optimisé */
 footer {
-    background-color: #66959b;
+    background-color: #66959b; /* Couleur uniforme avec l'ensemble */
     color: #ffffff;
     text-align: center;
-    padding: 10px 2%; /* Réduction de l'espace interne */
+    padding: 20px 2%; /* Ajout d'un peu plus de padding pour aérer */
     font-size: 0.85em; /* Texte légèrement réduit */
-    margin-top: 40px;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); /* Ombre discrète */
+    border-top: 2px solid #f3ece2; /* Transition douce avec le body */
     display: flex;
     flex-direction: column;
     gap: 10px;
