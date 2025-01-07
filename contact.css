@@ -42,14 +42,16 @@ section {
     transition: all 0.3s ease-in-out;
 }
 
+/* Logos par défaut en blanc */
 .social-media img {
     width: 40px; /* Taille des icônes */
     height: 40px;
-    filter: brightness(0) invert(1); /* Logos blancs */
+    filter: brightness(0) invert(1); /* Rend les logos blancs */
     transition: all 0.3s ease-in-out;
 }
 
-/* Animation au survol */
+/* Logos deviennent bleu foncé au survol */
 .social-media a:hover img {
-    filter: brightness(0) invert(0) sepia(100%) hue-rotate(190deg) saturate(400%); /* Bleu foncé */
+    filter: brightness(0) invert(0.2) sepia(1) hue-rotate(200deg) saturate(300%); /* Applique une teinte bleu foncé */
+}
 }
