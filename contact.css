@@ -48,32 +48,36 @@ section {
 
 /* Section Hero Contact */
 .hero-contact {
+    position: relative;
     text-align: center;
-    background-color: #f7f0e6; /* Beige clair */
-    padding: 20px;
     border-radius: 10px;
+    overflow: hidden;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.hero-image {
+.hero-contact .hero-image {
     position: relative;
+    background-image: url('image_cp.jpg'); /* Chemin de l'image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px; /* Hauteur de l'encadré */
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 15px; /* Espacement entre l'image et le texte */
 }
 
-.hero-image img.info-image {
-    max-width: 100%;
-    width: 200px; /* Taille de l'image ajustée */
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.hero-image h2 {
-    font-size: 1.8em;
-    color: #456a73;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+.hero-contact .hero-image h2 {
+    position: relative;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 
+                 0 0 10px rgba(0, 0, 0, 0.6); /* Ombre pour le texte */
+    background-color: rgba(0, 0, 0, 0.4); /* Fond semi-transparent pour le texte */
+    padding: 10px 20px; /* Espacement autour du texte */
+    border-radius: 8px; /* Coins arrondis */
 }
