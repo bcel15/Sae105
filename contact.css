@@ -77,3 +77,70 @@ section {
     color: #456a73;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
+
+/* Section du formulaire de contact */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.contact-form h3 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #003366;
+    font-size: 1em;
+}
+
+.contact-form label span {
+    color: #ff0000;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #003366;
+    background-color: #e4e8f1;
+    border-radius: 0;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #001a4d;
+}
+
+.contact-form button {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #001a4d;
+}
