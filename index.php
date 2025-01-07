@@ -1,5 +1,3 @@
-<?php include('menu.php'); ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,14 +9,25 @@
     <!-- Lien vers le fichier CSS global partagé par tout le site -->
     <link rel="stylesheet" href="styles.css">
     <!-- Lien vers le fichier CSS spécifique à cette page -->
-    <link rel="stylesheet" href="homepage.css">
-    <!-- Lien vers le fichier CSS spécifique au menu -->
-    <link rel="stylesheet" href="menu.css"> 
+    <link rel="stylesheet" href="homepage.css"> 
 </head>
 <body>
     <header>
-        <!-- Menu inclus ici -->
-        <?php include('menu.php'); ?>
+        <!-- Image en fond du header -->
+        <div class="header-background">
+            <h1>Bienvenue sur CP Parfums</h1>
+        </div>
+
+        <!-- Menu de navigation -->
+<nav>
+    <ul>
+        <li><a href="accueil.php">Accueil</a></li>
+        <li><a href="contact.php">Contacter</a></li>
+        <li><a href="catalogue.php">Catalogue</a></li>
+        <li><a href="panier.php">Panier</a></li>
+    </ul>
+</nav>
+
     </header>
 
     <main>
@@ -70,3 +79,4 @@
     </footer>
 </body>
 </html>
+
