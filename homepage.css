@@ -3,7 +3,7 @@ body {
     font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* Fond très clair pour une ambiance douce */
+    background-color: #f3ece2; /* Fond beige pour fusion avec les sections */
     color: #444;
     line-height: 1.6;
 }
@@ -15,7 +15,7 @@ header {
 }
 
 .header-background {
-    background-image: url('photo cp parfums.jpg'); /* Image de fond */
+    background-image: url('photo cp parfums.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -27,12 +27,11 @@ header {
 
 header h1 {
     font-size: 3.5em;
-    color: #ffffff; /* Bleu pâle un peu plus foncé */
+    color: #ffffff;
     text-align: center;
     font-weight: bold;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Ombre douce */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
-
 
 nav ul {
     list-style: none;
@@ -52,7 +51,7 @@ nav ul li a {
     color: #ffffff;
     font-weight: bold;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.4); /* Fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 30px;
     transition: background-color 0.3s ease;
 }
@@ -62,30 +61,36 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 60px 20px;
+    padding: 0; /* Supprime l'espacement global */
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 section {
-    margin-bottom: 50px;
-    padding: 40px;
-    background-color: #f3ece2; /* Beige doux en harmonie avec l'image */
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px; /* Ajout d'espace interne */
+    background-color: #f3ece2; /* Beige doux pour continuité */
+    border-radius: 0; /* Supprime les coins arrondis */
+    box-shadow: none; /* Supprime l'ombre */
+    margin: 0; /* Supprime l'espacement vertical */
+    border-top: 1px solid rgba(0, 0, 0, 0.05); /* Légère séparation pour la lisibilité */
+}
+
+section:nth-child(even) {
+    background-color: #f8f6f0; /* Variation subtile du beige pour alternance */
 }
 
 section h2 {
     text-align: center;
-    color: #66959b; /* Bleu-gris clair, s'harmonise avec le header */
+    color: #66959b;
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 section p {
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.8;
+    word-wrap: break-word;
 }
 
 figure {
@@ -103,25 +108,60 @@ figcaption {
     color: #66959b;
 }
 
+/* Pied de page optimisé */
 footer {
-    background-color: #66959b; /* Pied de page en harmonie avec l'image */
+    background-color: #66959b;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
-    font-size: 1em;
-    margin-top: 40px;
+    padding: 10px 2%;
+    font-size: 0.85em;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 footer h3 {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    font-size: 1em;
 }
 
 footer ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 footer ul li {
-    margin: 5px 0;
-    font-size: 1em;
+    margin: 0;
+    font-size: 0.85em;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 8px 2%;
+    }
 }
