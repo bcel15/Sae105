@@ -18,3 +18,20 @@
     transform: translateY(-5px); /* Remonte légèrement */
     filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%);
 }
+/* Mise à jour des couleurs */
+body {
+    background-color: #ffffff; /* Extérieur blanc */
+}
+
+main {
+    background-color: #f7f0e6; /* Beige au lieu du bleu clair */
+}
+
+section {
+    background-color: #f7f0e6; /* Beige pour les sections */
+}
+
+/* Fil d'Ariane */
+.breadcrumb {
+    background-color: #f7f0e6; /* Beige */
+}
