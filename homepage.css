@@ -70,8 +70,7 @@ section {
     margin-bottom: 50px;
     padding: 20px;
     background-color: #f3ece2; /* Même couleur que le fond du body */
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce pour délimiter */
+    border-radius: 12px; /* Garde des bords arrondis pour un style doux */
 }
 
 section h2 {
@@ -110,11 +109,10 @@ footer {
     text-align: center;
     padding: 20px 2%; /* Ajout d'un peu plus de padding pour aérer */
     font-size: 0.85em; /* Texte légèrement réduit */
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); /* Ombre discrète */
+    border-top: 2px solid #f3ece2; /* Transition douce avec le body */
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border-top: 2px solid #f3ece2; /* Transition douce avec le body */
 }
 
 footer h3 {
