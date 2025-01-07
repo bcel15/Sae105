@@ -71,4 +71,13 @@
         </div>
     </footer>
 </body>
+
+<section class="hero-contact">
+    <!-- Section d'en-tête visuelle -->
+    <div class="hero-image">
+        <img src="image_cp.jpg" alt="Illustration d'informations" class="info-image">
+        <h2>BESOIN D'UNE INFO ? NOUS SOMMES LÀ POUR Y RÉPONDRE !</h2>
+    </div>
+</section>
+
 </html>
