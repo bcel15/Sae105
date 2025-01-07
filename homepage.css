@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: none; /* Suppression de l'ombre sur l'image */
 }
 
 header h1 {
@@ -71,6 +72,7 @@ section {
     padding: 20px;
     background-color: #f3ece2; /* Même couleur que le fond du body */
     border-radius: 12px; /* Garde des bords arrondis pour un style doux */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre rétablie pour les sections */
 }
 
 section h2 {
