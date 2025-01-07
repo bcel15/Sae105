@@ -103,7 +103,7 @@ section {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #003366;
+    color: #008080; /* Turquoise */
     font-size: 1em;
 }
 
@@ -116,7 +116,7 @@ section {
     width: 100%;
     padding: 10px;
     border: none;
-    border-bottom: 2px solid #003366;
+    border-bottom: 2px solid #008080; /* Turquoise */
     background-color: #e4e8f1;
     border-radius: 0;
     font-size: 1em;
@@ -126,11 +126,11 @@ section {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-bottom: 2px solid #001a4d;
+    border-bottom: 2px solid #005757; /* Turquoise plus foncé */
 }
 
 .contact-form button {
-    background-color: #003366;
+    background-color: #008080; /* Turquoise */
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -142,5 +142,5 @@ section {
 }
 
 .contact-form button:hover {
-    background-color: #001a4d;
+    background-color: #005757; /* Turquoise plus foncé */
 }
