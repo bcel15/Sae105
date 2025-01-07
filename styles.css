@@ -30,7 +30,11 @@ header h1 {
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Ombre douce */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 
+                 0 0 10px rgba(0, 0, 0, 0.6); /* Contour sombre pour le titre */
+    background-color: rgba(0, 0, 0, 0.3); /* Fond transparent derrière le texte */
+    padding: 10px 20px; /* Espacement autour du texte */
+    border-radius: 8px; /* Coins légèrement arrondis */
 }
 
 nav ul {
@@ -158,4 +162,64 @@ footer {
 .breadcrumb nav ul li.current {
     font-weight: bold;
     color: white;
+}
+
+/* Styles pour la vidéo */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.video-container video {
+    width: 80%; /* Taille ajustée à 80% de la largeur de l'écran */
+    max-width: 900px; /* Largeur maximale pour les écrans plus grands */
+    height: auto;
+    border: 3px solid #456a73;
+    border-radius: 10px;
+}
+
+/* Responsivité globale */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em; /* Réduction de la taille du titre pour les petits écrans */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Espacement vertical pour les petits écrans */
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .video-container video {
+        width: 100%; /* Vidéo occupe toute la largeur de l'écran */
+    }
+
+    section {
+        padding: 15px;
+        font-size: 0.9em; /* Réduction légère de la taille du texte */
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 14px; /* Réduction de la taille des liens de navigation */
+        padding: 8px 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.8em; /* Texte du pied de page légèrement réduit */
+    }
 }
