@@ -45,3 +45,35 @@ section {
 .social-media a:hover img {
     filter: brightness(0) invert(0.2) sepia(1) hue-rotate(200deg) saturate(300%);
 }
+
+/* Section Hero Contact */
+.hero-contact {
+    text-align: center;
+    background-color: #f7f0e6; /* Beige clair */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espacement entre l'image et le texte */
+}
+
+.hero-image img.info-image {
+    max-width: 100%;
+    width: 200px; /* Taille de l'image ajustée */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image h2 {
+    font-size: 1.8em;
+    color: #456a73;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
