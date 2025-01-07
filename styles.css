@@ -30,11 +30,11 @@ header h1 {
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 
-                 0 0 10px rgba(0, 0, 0, 0.6); /* Contour sombre pour le titre */
-    background-color: rgba(0, 0, 0, 0.3); /* Fond transparent derrière le texte */
-    padding: 10px 20px; /* Espacement autour du texte */
-    border-radius: 8px; /* Coins légèrement arrondis */
+    text-shadow: 
+        -2px -2px 2px rgba(0, 0, 0, 0.8), /* Contour sombre sur 4 côtés */
+        2px -2px 2px rgba(0, 0, 0, 0.8),
+        -2px 2px 2px rgba(0, 0, 0, 0.8),
+        2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 nav ul {
@@ -97,10 +97,20 @@ figure {
     margin: 20px 0;
 }
 
-video {
-    max-width: 100%;
-    border: 3px solid #456a73;
-    border-radius: 5px;
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.video-container video {
+    width: 100%; /* Vidéo occupe toute la largeur */
+    max-width: 1400px; /* Limite maximale pour grands écrans */
+    height: auto;
+    border: 4px solid #456a73; /* Bordure plus épaisse pour souligner la vidéo */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Ombre pour un effet visuel attractif */
 }
 
 figcaption {
@@ -111,11 +121,11 @@ figcaption {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px; /* Pied de page réduit */
     background-color: #66959b; /* Couleur du fond du pied de page */
     color: #fcf7e3;
-    margin-top: 20px;
     font-size: 0.9em;
+    margin-top: 20px;
 }
 
 .breadcrumb {
@@ -164,22 +174,6 @@ footer {
     color: white;
 }
 
-/* Styles pour la vidéo */
-.video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.video-container video {
-    width: 80%; /* Taille ajustée à 80% de la largeur de l'écran */
-    max-width: 900px; /* Largeur maximale pour les écrans plus grands */
-    height: auto;
-    border: 3px solid #456a73;
-    border-radius: 10px;
-}
-
 /* Responsivité globale */
 @media (max-width: 768px) {
     header h1 {
@@ -200,7 +194,7 @@ footer {
     }
 
     .video-container video {
-        width: 100%; /* Vidéo occupe toute la largeur de l'écran */
+        width: 95%; /* Légère marge sur les petits écrans */
     }
 
     section {
