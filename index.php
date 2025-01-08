@@ -15,9 +15,6 @@
     <header>
         <!-- Image en fond du header -->
         <div class="header-background">
-            <div class="logo">
-                <img src="img/logo.png" alt="Logo Magasin de Parfums">
-            </div>
             <h1>Bienvenue sur CP Parfums</h1>
         </div>
 
