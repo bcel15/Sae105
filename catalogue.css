@@ -152,18 +152,48 @@ h1 {
     margin-bottom: 10px;
     color: #555;
 }
-
-.details-content button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #222;
-    color: white;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    margin-top: 10px;
+/* Cache la pop-up lorsqu'elle est masquée */
+#details-parfum.hidden {
+    display: none;
 }
 
-.details-content button:hover {
-    background-color: #444;
+/* Style général de la pop-up */
+#details-parfum.visible {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5dc; /* Beige clair */
+    color: #333; /* Couleur du texte */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ombre douce */
+    padding: 20px;
+    z-index: 1000;
+    max-width: 90%; /* Ajuste pour les petits écrans */
+    width: 500px; /* Largeur fixe */
+    text-align: center;
+    font-family: Arial, sans-serif; /* Utilise une police harmonieuse */
 }
+
+/* Image dans la pop-up */
+#details-parfum img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Coins arrondis */
+    margin-bottom: 20px;
+}
+
+/* Titre de la pop-up */
+#details-parfum h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444; /* Texte foncé harmonieux */
+}
+
+/* Description */
+#details-parfum p {
+    font-size: 16px;
+    color: #555; /* Texte un peu plus clair */
+    margin-bottom: 20px;
+    line

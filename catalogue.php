@@ -173,18 +173,22 @@
         </section>
 
         <section id="details-parfum" class="hidden">
-            <div class="details-content">
+            <div class="popup-content">
+                <img id="details-image" src="" alt="Image du parfum">
+                <h2 id="details-title">Titre du Parfum</h2>
+                <p id="details-description">Description du parfum.</p>
                 <button onclick="closeDetails()">Fermer</button>
-                <img id="details-image" src="" alt="">
-                <h2 id="details-title"></h2>
-                <p id="details-description"></p>
             </div>
         </section>
+
     </main>
 
 
     <footer>
         <p>&copy; 2025 CP Parfums. Tous droits réservés.</p>
     </footer>
+    
+    <script defer src="catalogue.js"></script>
+
 </body>
 </html>
