@@ -52,7 +52,7 @@ nav ul li a {
     color: #ffffff;
     font-weight: bold;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(8, 19, 31, 0.4);
     border-radius: 30px;
     transition: background-color 0.3s ease;
 }

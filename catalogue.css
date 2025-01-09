@@ -40,13 +40,18 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
     text-decoration: none;
+    color: #ffffff;
     font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgba(8, 19, 31, 0.4);
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 main {
@@ -135,7 +140,7 @@ h1 {
 #details-parfum.visible {
     visibility: visible;
     opacity: 1;
-}
+} 
 
 .details-content {
     background-color: #f3ece2;
