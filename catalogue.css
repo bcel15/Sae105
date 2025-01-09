@@ -66,7 +66,7 @@ h1 {
 }
 
 .parfum {
-    background-color: white;
+    background-color: #f5f5dc;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
@@ -127,7 +127,7 @@ h1 {
 }
 
 .details-content {
-    background-color: white;
+    background-color: #f5f5dc;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
