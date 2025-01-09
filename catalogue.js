@@ -22,6 +22,7 @@ const descriptions = {
     parfum20: "Cristal est pur et éclatant, une symphonie de lumière et de fraîcheur."
 };
 
+
 // Afficher la pop-up en haut à droite
 function showCartPopup(name) {
     const cartPopup = document.getElementById("cart-popup");
@@ -36,7 +37,10 @@ function showCartPopup(name) {
 }
 
 // Ajouter au panier depuis le catalogue
-function addToCart(name, price) {
+function addToCart(name, price, event) {
+    // Empêcher le comportement par défaut du bouton (éviter qu'il recharge la page)
+    event.preventDefault();
+
     // Ajout au panier, ici juste un log dans la console, tu peux ajouter ta propre logique pour gérer le panier
     console.log(`Ajouté au panier: ${name} pour ${price} €`);
 
@@ -47,7 +51,8 @@ function addToCart(name, price) {
 // Ajouter au panier depuis le pop-up
 function addToCartFromPopup() {
     const title = document.getElementById("details-title").innerText;
-    const price = document.getElementById("details-price").innerText;
+    const priceText = document.getElementById("details-prix").innerText;
+    const price = parseFloat(priceText.replace('€', '').trim()); // Extraire le prix
     addToCart(title, price);  // Appel à la fonction d'ajout au panier
 }
 
@@ -57,6 +62,7 @@ function showDetails(parfumId) {
     const detailsImage = document.getElementById("details-image");
     const detailsTitle = document.getElementById("details-title");
     const detailsDescription = document.getElementById("details-description");
+    const detailsPrice = document.getElementById("details-prix");
 
     // Récupérer le parfum correspondant
     const parfumElement = document.querySelector(`.parfum[onclick="showDetails('${parfumId}')"]`);
@@ -65,11 +71,13 @@ function showDetails(parfumId) {
         const imageSrc = parfumElement.querySelector("img").src;
         const title = parfumElement.querySelector("h2").textContent;
         const description = descriptions[parfumId] || "Description non disponible.";
+        const price = parfumElement.querySelector(".prix").textContent;
 
         // Mettre à jour les éléments de la fenêtre pop-up
         detailsImage.src = imageSrc;
         detailsTitle.textContent = title;
         detailsDescription.textContent = description;
+        detailsPrice.textContent = `Prix: ${price}`;
 
         // Afficher la section pop-up
         detailsSection.classList.add("visible");

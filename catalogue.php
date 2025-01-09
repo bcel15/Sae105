@@ -197,11 +197,11 @@
             <h2 id="details-title">Titre du Parfum</h2>
             <p id="details-description">Description du parfum.</p>
             <p id="details-prix">Prix: </p>
-            <button onclick="addToCartFromPopup()">Ajouter au panier</button>
+            <button class="ajouter-panier" onclick="ajouterAuPanierDepuisPopup()">Ajouter au panier</button>
             <button onclick="closeDetails()">Fermer</button>
         </div>
     </section>
-    
+
     <!-- Pop-up en haut à droite pour confirmation -->
     <div id="cart-popup" class="cart-popup hidden">
             <p id="cart-message"></p>
