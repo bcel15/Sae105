@@ -196,5 +196,5 @@ h1 {
     font-size: 16px;
     color: #555; /* Texte un peu plus clair */
     margin-bottom: 20px;
-    line
+    line-height: 1.5; /* Espacement entre les lignes */
 }
