@@ -61,7 +61,7 @@
         <div class="text">
             <h1>Tu fais quoi ici frère ?</h1>
             <p>Vas-y, retourne sur la page d'accueil. Elle existe pas la page que tu cherches, zebi.</p>
-            <a href="/">Retour à l'accueil</a>
+            <a href="index.php">Retour à l'accueil</a>
         </div>
         <div class="image">
             <img src="photo 404.png" alt="Image 404">

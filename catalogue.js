@@ -22,6 +22,35 @@ const descriptions = {
     parfum20: "Cristal est pur et éclatant, une symphonie de lumière et de fraîcheur."
 };
 
+// Afficher la pop-up en haut à droite
+function showCartPopup(name) {
+    const cartPopup = document.getElementById("cart-popup");
+    const cartMessage = document.getElementById("cart-message");
+    cartMessage.innerText = `${name} a été ajouté au panier`;
+    cartPopup.classList.remove("hidden");
+
+    // Masquer la pop-up après 3 secondes
+    setTimeout(function() {
+        cartPopup.classList.add("hidden");
+    }, 3000);
+}
+
+// Ajouter au panier depuis le catalogue
+function addToCart(name, price) {
+    // Ajout au panier, ici juste un log dans la console, tu peux ajouter ta propre logique pour gérer le panier
+    console.log(`Ajouté au panier: ${name} pour ${price} €`);
+
+    // Afficher la pop-up de confirmation
+    showCartPopup(name);
+}
+
+// Ajouter au panier depuis le pop-up
+function addToCartFromPopup() {
+    const title = document.getElementById("details-title").innerText;
+    const price = document.getElementById("details-price").innerText;
+    addToCart(title, price);  // Appel à la fonction d'ajout au panier
+}
+
 // Fonction pour afficher les détails d'un parfum
 function showDetails(parfumId) {
     const detailsSection = document.getElementById("details-parfum");

@@ -10,8 +10,8 @@ body {
 header {
     background-color: #f3ece2; /* Si l'image n'est pas chargée */
     color: white;
-    padding: 0; /* Supprimez le padding si l'image doit couvrir toute la zone */
-    margin-top: 20px; /* Ajout d'un espace entre l'image et le menu */
+    padding: 0; /* Ajouter un padding pour l'espacement */
+    margin-top: 0px; /* Ajout d'un espace entre l'image et le menu */
 }
 
 .header-background {
@@ -20,13 +20,19 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh; /* Réduit la hauteur pour que l'image s'arrête avant le menu */
+    height: 100vh; /* Réduit la hauteur pour que l'image s'arrête avant le menu */
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: none; /* Suppression de l'ombre sur l'image */
 }
 
+header nav {
+    background-color: #f3ece2; /* Fond beige sous l'image */
+    padding: 20px 0; /* Ajouter un padding pour l'espacement */
+    position: relative;
+    margin-top: 0px; /* Augmenter l'espacement entre l'image et le menu */
+}
 
 header nav ul {
     list-style: none;
@@ -61,7 +67,7 @@ main {
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 36px; /* Augmente la taille du titre */
     font-weight: bold; /* Rend le titre plus imposant */
     color: #444; /* Donne une couleur plus marquante */
@@ -214,4 +220,25 @@ h1 {
     color: #555; /* Texte un peu plus clair */
     margin-bottom: 20px;
     line-height: 1.5; /* Espacement entre les lignes */
+}
+
+.cart-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none; /* Initialement caché */
+    font-size: 16px;
+    z-index: 1000;
+}
+
+.cart-popup.hidden {
+    display: none;
+}
+
+.cart-popup p {
+    margin: 0;
 }
