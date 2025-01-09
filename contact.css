@@ -1,43 +1,45 @@
- /* Animation au survol */
- .social-media a:hover img {
+/* Animation au survol */
+.social-media a:hover img {
     transform: translateY(-5px); /* Remonte légèrement */
     filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%);
 }
-/* Mise à jour des couleurs */
+
+/* Mise à jour des couleurs principales */
 body {
-    background-color: #f3ece2; /* Extérieur blanc */
+    background-color: #f3ece2; /* Couleur de fond principale (blanc cassé) */
 }
 
 main {
-    background-color: #f7f0e6; /* Beige au lieu du bleu clair */
+    background-color: #f7f0e6; /* Fond beige pour le contenu principal */
 }
 
 section {
-    background-color: #f7f0e6; /* Beige pour les sections */
+    background-color: #f7f0e6; /* Fond beige pour les sections */
 }
 
 /* Fil d'Ariane */
 .breadcrumb {
-    background-color: #f7f0e6; /* Beige */
+    background-color: #f7f0e6; /* Fond beige pour le fil d'Ariane */
 }
+
 /* Section des réseaux sociaux */
 .social-media a {
     display: inline-block;
     margin: 10px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; /* Transition fluide au survol */
 }
 
 /* Styles généraux pour les logos */
 .social-media img {
-    width: 36px; /* Taille légèrement réduite */
+    width: 36px; /* Taille des logos réseaux sociaux */
     height: 36px;
     filter: brightness(0) invert(1); /* Logos blancs par défaut */
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; /* Transition fluide au survol */
 }
 
 /* Logo Facebook spécifique */
 .social-media a.facebook img {
-    width: 34px; /* Ajuste la taille du logo Facebook */
+    width: 34px; /* Taille spécifique au logo Facebook */
     height: 34px;
 }
 
@@ -49,11 +51,11 @@ section {
 /* Section Hero Contact */
 .hero-contact {
     text-align: center;
-    background-color: #f7f0e6; /* Beige clair */
+    background-color: #f7f0e6; /* Fond beige clair */
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px; /* Coins arrondis */
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
 }
 
 .hero-image {
@@ -66,49 +68,49 @@ section {
 
 .hero-image img.info-image {
     max-width: 100%;
-    width: 200px; /* Taille de l'image ajustée */
+    width: 200px; /* Taille ajustée pour l'image */
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre pour l'image */
 }
 
 .hero-image h2 {
     font-size: 1.8em;
-    color: #456a73;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #456a73; /* Nouvelle couleur principale pour les titres */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Légère ombre pour le texte */
 }
 
 /* Section du formulaire de contact */
 .contact-form {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Fond clair pour le formulaire */
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    font-family: Arial, sans-serif; /* Police principale */
 }
 
 .contact-form h3 {
     text-align: center;
-    color: #333333;
+    color: #333333; /* Couleur sombre pour les titres */
     margin-bottom: 15px;
-    font-size: 1.8em;
+    font-size: 1.8em; /* Taille des titres du formulaire */
 }
 
 .contact-form .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Espacement entre les champs */
 }
 
 .contact-form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #008080; /* Turquoise */
+    color: #456a73; /* Nouvelle couleur pour les étiquettes */
     font-size: 1em;
 }
 
 .contact-form label span {
-    color: #ff0000;
+    color: #ff0000; /* Couleur pour indiquer les champs requis */
 }
 
 .contact-form input,
@@ -116,31 +118,31 @@ section {
     width: 100%;
     padding: 10px;
     border: none;
-    border-bottom: 2px solid #008080; /* Turquoise */
-    background-color: #e4e8f1;
+    border-bottom: 2px solid #456a73; /* Nouvelle couleur pour les bordures des champs */
+    background-color: #e4e8f1; /* Fond des champs */
     border-radius: 0;
     font-size: 1em;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Inclure padding et bordures dans la taille totale */
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-bottom: 2px solid #005757; /* Turquoise plus foncé */
+    border-bottom: 2px solid #345055; /* Couleur plus foncée au focus */
 }
 
 .contact-form button {
-    background-color: #008080; /* Turquoise */
-    color: #ffffff;
+    background-color: #456a73; /* Nouvelle couleur pour les boutons */
+    color: #ffffff; /* Texte blanc */
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px; /* Coins arrondis */
     font-size: 1.1em;
     cursor: pointer;
     width: 100%;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* Transition fluide pour le bouton */
 }
 
 .contact-form button:hover {
-    background-color: #005757; /* Turquoise plus foncé */
+    background-color: #345055; /* Couleur plus foncée au survol */
 }
