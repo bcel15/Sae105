@@ -36,10 +36,6 @@
             </div>
         </section>
 
-        <section class="breadcrumb">
-            <p><a href="index.php">Accueil</a> > <a href="contact.php">Contact</a></p>
-        </section>
-
         <section class="contact-form">
     <h3>Contactez-nous</h3>
     <form action="submit_contact.php" method="post">
