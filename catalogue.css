@@ -65,21 +65,23 @@ h1 {
     gap: 20px;
     justify-items: center;
     align-items: start;
+    padding: 20px; /* Optionnel */
 }
 
 .parfum {
     background-color: #f3ece2;
-    border: 1px solid #ddd;
+    border: none; /* Retirer la bordure */
     border-radius: 8px;
     padding: 10px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre à la place du trait */
 }
 
 .parfum:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Ombre plus marquée au survol */
 }
 
 .parfum img {
