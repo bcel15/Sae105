@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f3ece2; /* Uniformise le fond avec le beige */
     color: #333;
 }
 
@@ -66,7 +66,7 @@ h1 {
 }
 
 .parfum {
-    background-color: white;
+    background-color: #f3ece2;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
@@ -127,7 +127,7 @@ h1 {
 }
 
 .details-content {
-    background-color: white;
+    background-color: #f3ece2;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
