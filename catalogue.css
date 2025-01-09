@@ -1,0 +1,200 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-background {
+    background-image: url('photo_catalogue.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Suppression de l'ombre sur l'image */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les parfums */
+.parfums-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+
+.parfum {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.parfum:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.parfum img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.parfum h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #222;
+}
+
+.parfum p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.parfum .prix {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Section des détails */
+#details-parfum {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#details-parfum.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.details-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.details-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.details-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+/* Cache la pop-up lorsqu'elle est masquée */
+#details-parfum.hidden {
+    display: none;
+}
+
+/* Style général de la pop-up */
+#details-parfum.visible {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5dc; /* Beige clair */
+    color: #333; /* Couleur du texte */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ombre douce */
+    padding: 20px;
+    z-index: 1000;
+    max-width: 90%; /* Ajuste pour les petits écrans */
+    width: 500px; /* Largeur fixe */
+    text-align: center;
+    font-family: Arial, sans-serif; /* Utilise une police harmonieuse */
+}
+
+/* Image dans la pop-up */
+#details-parfum img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Coins arrondis */
+    margin-bottom: 20px;
+}
+
+/* Titre de la pop-up */
+#details-parfum h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444; /* Texte foncé harmonieux */
+}
+
+/* Description */
+#details-parfum p {
+    font-size: 16px;
+    color: #555; /* Texte un peu plus clair */
+    margin-bottom: 20px;
+    line
+}
