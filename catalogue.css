@@ -120,8 +120,8 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 500px; /* Largeur fixe */
-    height: 500px; /* Rend la fenêtre carrée */
+    width: 700px; /* Largeur fixe */
+    height: 700px; /* Rend la fenêtre carrée */
     overflow: auto; /* Permet de scroller si le contenu dépasse */
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
