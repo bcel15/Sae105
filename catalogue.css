@@ -11,6 +11,7 @@ header {
     background-color: #222; /* Si l'image n'est pas chargée */
     color: white;
     padding: 0; /* Supprimez le padding si l'image doit couvrir toute la zone */
+    margin-top: 20px; /* Ajout d'un espace entre l'image et le menu */
 }
 
 .header-background {
@@ -19,7 +20,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh; /* Hauteur complète de la fenêtre visible */
+    height: calc(100vh - 60px); /* Réduit la hauteur de l'image de fond pour laisser de l'espace */
     display: flex;
     justify-content: center;
     align-items: center;
