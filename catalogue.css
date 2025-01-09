@@ -8,22 +8,24 @@ body {
 }
 
 header {
-    background-color: #222;
+    background-color: #222; /* Si l'image n'est pas chargée */
     color: white;
-    padding: 10px 20px;
+    padding: 0; /* Supprimez le padding si l'image doit couvrir toute la zone */
 }
 
 .header-background {
     background-image: url('photo_catalogue.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Hauteur complète de la fenêtre visible */
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: none; /* Suppression de l'ombre sur l'image */
 }
+
 
 header nav ul {
     list-style: none;
