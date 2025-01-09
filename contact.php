@@ -10,10 +10,8 @@
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <div class="logo">
-                <img src="img/logo.png" alt="Logo Magasin de Parfums">
-            </div>
+        <div class="header-banner">
+            <img src="img/baniere_cp.jpg" alt="Bannière Magasin de Parfums">
             <h1>Magasin de Parfums</h1>
         </div>
     </header>
