@@ -224,21 +224,25 @@ h1 {
 
 .cart-popup {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 515px;
+    left: 860px;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 5px;
-    display: none; /* Initialement caché */
-    font-size: 16px;
-    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    visibility: hidden; /* Par défaut, caché */
+    opacity: 0; /* Invisible */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Transition douce */
 }
 
 .cart-popup.hidden {
-    display: none;
+    visibility: hidden; /* Caché */
+    opacity: 0; /* Transparent */
 }
 
-.cart-popup p {
-    margin: 0;
+.cart-popup:not(.hidden) {
+    visibility: visible; /* Visible */
+    opacity: 1; /* Opaque */
 }
