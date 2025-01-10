@@ -206,6 +206,7 @@
     <div id="cart-popup" class="cart-popup hidden">
             <p id="cart-message"></p>
         </div>
+
 </main>
 
 <footer>
