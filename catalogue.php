@@ -34,7 +34,7 @@
                 <h2>Élégance</h2>
                 <p>Raffiné et classique</p>
                 <p class="prix">51,24 €</p>
-                <button onclick="addToCart('Élégance', 51.24, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Élégance', 51.24, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum2')">
@@ -42,7 +42,7 @@
                 <h2>Mystère</h2>
                 <p>Envoutant et charismatique</p>
                 <p class="prix">110,25 €</p>
-                <button onclick="addToCart('Mystère', 110.25, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Mystère', 110.25, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum3')">
@@ -50,7 +50,7 @@
                 <h2>Horizon</h2>
                 <p>Frais et dynamique</p>
                 <p class="prix">106,40 €</p>
-                <button onclick="addToCart('Horizon', 106.40, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Horizon', 106.40, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum4')">
@@ -58,7 +58,7 @@
                 <h2>Ambition</h2>
                 <p>Moderne et audacieux</p>
                 <p class="prix">120,00 €</p>
-                <button onclick="addToCart('Ambition', 120.00, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Ambition', 120.00, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum5')">
@@ -66,7 +66,7 @@
                 <h2>Sérénité</h2>
                 <p>Apaisant et doux</p>
                 <p class="prix">135,00 €</p>
-                <button onclick="addToCart('Sérénité', 135.00, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Sérénité', 135.00, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum6')">
@@ -74,7 +74,7 @@
                 <h2>Évasion</h2>
                 <p>Exotique et unique</p>
                 <p class="prix">115,50 €</p>
-                <button onclick="addToCart('Évasion', 115.50, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Évasion', 115.50, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum7')">
@@ -82,7 +82,7 @@
                 <h2>Bravoure</h2>
                 <p>Fort et distinctif</p>
                 <p class="prix">102,90 €</p>
-                <button onclick="addToCart('Bravoure', 102.90, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Bravoure', 102.90, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum8')">
@@ -90,7 +90,7 @@
                 <h2>Harmonie</h2>
                 <p>Équilibré et floral</p>
                 <p class="prix">98,75 €</p>
-                <button onclick="addToCart('Harmonie', 98.75, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Harmonie', 98.75, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum9')">
@@ -98,7 +98,7 @@
                 <h2>Nuit</h2>
                 <p>Sombre et séduisant</p>
                 <p class="prix">125,60 €</p>
-                <button onclick="addToCart('Nuit', 125.60, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Nuit', 125.60, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum10')">
@@ -106,7 +106,7 @@
                 <h2>Vitalité</h2>
                 <p>Énergique et frais</p>
                 <p class="prix">89,40 €</p>
-                <button onclick="addToCart('Vitalité', 89.40, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Vitalité', 89.40, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum11')">
@@ -114,7 +114,7 @@
                 <h2>Prestige</h2>
                 <p>Luxueux et riche</p>
                 <p class="prix">145,30 €</p>
-                <button onclick="addToCart('Prestige', 145.30, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Prestige', 145.30, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum12')">
@@ -122,7 +122,7 @@
                 <h2>Tempête</h2>
                 <p>Intense et audacieux</p>
                 <p class="prix">112,00 €</p>
-                <button onclick="addToCart('Tempête', 112.00, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Tempête', 112.00, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum13')">
@@ -130,7 +130,7 @@
                 <h2>Saphir</h2>
                 <p>Éclatant et rare</p>
                 <p class="prix">130,20 €</p>
-                <button onclick="addToCart('Saphir', 130.20, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Saphir', 130.20, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum14')">
@@ -138,7 +138,7 @@
                 <h2>Zénith</h2>
                 <p>Chaud et lumineux</p>
                 <p class="prix">122,45 €</p>
-                <button onclick="addToCart('Zénith', 122.45, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Zénith', 122.45, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum15')">
@@ -146,7 +146,7 @@
                 <h2>Énigme</h2>
                 <p>Mystérieux et captivant</p>
                 <p class="prix">118,90 €</p>
-                <button onclick="addToCart('Énigme', 118.90, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Énigme', 118.90, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum16')">
@@ -154,7 +154,7 @@
                 <h2>Arôme</h2>
                 <p>Naturel et frais</p>
                 <p class="prix">95,60 €</p>
-                <button onclick="addToCart('Arôme', 95.60, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Arôme', 95.60, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum17')">
@@ -162,7 +162,7 @@
                 <h2>Rubis</h2>
                 <p>Vibrant et précieux</p>
                 <p class="prix">138,00 €</p>
-                <button onclick="addToCart('Rubis', 138.00, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Rubis', 138.00, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum18')">
@@ -170,7 +170,7 @@
                 <h2>Pureté</h2>
                 <p>Clair et apaisant</p>
                 <p class="prix">99,90 €</p>
-                <button onclick="addToCart('Pureté', 99.90, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Pureté', 99.90, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum19')">
@@ -178,7 +178,7 @@
                 <h2>Flamme</h2>
                 <p>Chaleureux et intense</p>
                 <p class="prix">140,20 €</p>
-                <button onclick="addToCart('Flamme', 140.20, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Flamme', 140.20, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
 
             <div class="parfum" onclick="showDetails('parfum20')">
@@ -186,7 +186,7 @@
                 <h2>Cristal</h2>
                 <p>Pur et éclatant</p>
                 <p class="prix">108,75 €</p>
-                <button onclick="addToCart('Cristal', 108.75, event)">Ajouter au panier</button>
+                <button onclick="addToCart('Cristal', 108.75, event); event.stopPropagation();">Ajouter au panier</button>
             </div>
         </div>
     </section>
@@ -197,7 +197,7 @@
             <h2 id="details-title">Titre du Parfum</h2>
             <p id="details-description">Description du parfum.</p>
             <p id="details-prix">Prix: </p>
-            <button class="ajouter-panier" onclick="ajouterAuPanierDepuisPopup()">Ajouter au panier</button>
+            <button class="ajouter-panier" onclick="addToCartFromPopup()">Ajouter au panier</button>
             <button onclick="closeDetails()">Fermer</button>
         </div>
     </section>
