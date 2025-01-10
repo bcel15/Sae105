@@ -246,3 +246,24 @@ h1 {
     visibility: visible; /* Visible */
     opacity: 1; /* Opaque */
 }
+
+/* Cibler tous les boutons sur la page */
+button {
+    font-size: 18px; /* Augmente la taille du texte */
+    padding: 10px 20px; /* Augmente l'espace autour du texte */
+    background-color: #456a73; /* Couleur bleu spécifiée */
+    color: white; /* Texte en blanc */
+    border: none; /* Pas de bordure */
+    border-radius: 10px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation au survol */
+}
+
+button:hover {
+    background-color: #3a545a; /* Couleur plus sombre au survol */
+    transform: scale(1.1); /* Agrandit légèrement le bouton au survol */
+}
+
+button:active {
+    transform: scale(1); /* Restaure la taille normale lorsqu'il est cliqué */
+}
