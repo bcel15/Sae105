@@ -50,7 +50,7 @@
             padding: 20px;
             border: 1px solid #d8ddd7;
             border-radius: 5px;
-            background-color: #ffffff;
+            background-color: #f3ece2;
         }
 
         h2 {
