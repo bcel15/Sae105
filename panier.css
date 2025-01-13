@@ -1,28 +1,84 @@
 /* Styles globaux */
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdf8f2;
+    background-color: #f3ece2;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
+    flex-direction: column; /* Ajoute cette ligne pour que les éléments se placent verticalement */
+    justify-content: flex-start; /* Aligne les éléments en haut */
+    align-items: center; /* Centre les éléments horizontalement */
     min-height: 100vh; /* Hauteur minimale de la fenêtre */
+}
+header {
+    background-color: #f3ece2; /* Si l'image n'est pas chargée */
+    color: #f3ece2;
+    padding: 0; /* Ajouter un padding pour l'espacement */
+    margin-top: 0px; /* Ajout d'un espace entre l'image et le menu */
+}
+
+.header-background {
+    background-image: url('photo_panier.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* Réduit la hauteur pour que l'image s'arrête avant le menu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none; /* Suppression de l'ombre sur l'image */
+}
+
+header nav {
+    background-color: #f3ece2; /* Fond beige sous l'image */
+    padding: 20px 0; /* Ajouter un padding pour l'espacement */
+    position: relative;
+    margin-top: 0px; /* Augmenter l'espacement entre l'image et le menu */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f3ece2;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgba(8, 19, 31, 0.4);
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+
+}
+
+header nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Conteneur principal */
-.container {
+main {
     text-align: center;
-    background: #fff;
+    background: #f3ece2;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    padding: 20px 30px;
-    width: 90%;
-    max-width: 600px;
+    padding: 20px;
+    width: 90%;  /* Prend une grande partie de l'écran */
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-top: 20px; /* Ajoute de l'espace au-dessus du tableau */
 }
 
 /* Titre principal */
-.container h1 {
+h1 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 20px;
@@ -33,6 +89,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    table-layout: fixed;
 }
 
 th, td {
@@ -65,11 +122,4 @@ button {
 
 button:hover {
     background-color: #456a73;
-}
-
-/* Message si le panier est vide */
-#empty-message {
-    font-size: 1.5rem;
-    color: #888;
-    margin: 20px 0;
 }

@@ -9,6 +9,9 @@
 </head>
 <body>
     <header>
+        <div class="header-background">
+            <h1>Notre catalogue</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
