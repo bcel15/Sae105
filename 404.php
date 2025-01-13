@@ -59,8 +59,8 @@
 <body>
     <div class="container">
         <div class="text">
-            <h1>Tu fais quoi ici espèce de cotorep ?</h1>
-            <p>Vas-y, retourne sur la page d'accueil. Elle existe pas la page que tu cherches, zebi.</p>
+            <h1>Tu fais quoi ici ?</h1>
+            <p>Vas-y, retourne sur la page d'accueil. Elle existe pas la page que tu cherches.</p>
             <a href="index.php">Retour à l'accueil</a>
         </div>
         <div class="image">
