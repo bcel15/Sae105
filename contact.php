@@ -14,7 +14,6 @@
             <img src="baniere_cp" alt="Bannière Magasin de Parfums">
             <h1>Magasin de Parfums</h1>
         </div>
-    </header>
 
     <nav>
         <ul>
@@ -23,6 +22,7 @@
             <li><a href="cart.php" class="cart-link">Panier</a></li>
         </ul>
     </nav>
+    </header>
 
     <main>
         <section class="hero-contact">
