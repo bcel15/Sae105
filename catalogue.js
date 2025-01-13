@@ -42,12 +42,21 @@ function addToCart(name, price, event) {
     // Empêcher le comportement par défaut du bouton (éviter qu'il recharge la page)
     event.preventDefault();
 
-    // Ajout au panier, ici juste un log dans la console, tu peux ajouter ta propre logique pour gérer le panier
+    // Récupérer le panier existant depuis localStorage
+    const panier = JSON.parse(localStorage.getItem('panier')) || [];
+    
+    // Ajouter le nouveau produit au panier
+    panier.push({ nom: name, prix: price });
+    
+    // Mettre à jour localStorage
+    localStorage.setItem('panier', JSON.stringify(panier));
+    
     console.log(`Ajouté au panier: ${name} pour ${price} €`);
-
+    
     // Afficher la pop-up de confirmation
     showCartPopup(name);
 }
+
 
 // Ajouter au panier depuis le pop-up
 function addToCartFromPopup() {
