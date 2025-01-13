@@ -29,11 +29,11 @@ section {
     transition: all 0.3s ease-in-out; /* Transition fluide au survol */
 }
 
-/* Bleu cyan par défaut */
+/* Couleur #66959B par défaut */
 .social-media img {
     width: 36px;
     height: 36px;
-    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(160deg) brightness(1.2);
+    filter: brightness(0) saturate(100%) invert(73%) sepia(11%) saturate(289%) hue-rotate(148deg) brightness(95%) contrast(86%);
     transition: all 0.3s ease-in-out;
 }
 
