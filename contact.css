@@ -29,12 +29,12 @@ section {
     transition: all 0.3s ease-in-out; /* Transition fluide au survol */
 }
 
-/* Styles généraux pour les logos */
+/* Couleur #66959B par défaut */
 .social-media img {
-    width: 36px; /* Taille des logos réseaux sociaux */
+    width: 36px;
     height: 36px;
-    filter: brightness(0) invert(1); /* Logos blancs par défaut */
-    transition: all 0.3s ease-in-out; /* Transition fluide au survol */
+    filter: brightness(0) saturate(100%) invert(73%) sepia(11%) saturate(289%) hue-rotate(148deg) brightness(95%) contrast(86%);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Logo Facebook spécifique */
