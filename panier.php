@@ -9,11 +9,14 @@
 </head>
 <body>
     <header>
+        <div class="header-background">
+            <h1>Panier</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="catalogue.html">Catalogue</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="catalogue.php">Catalogue</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>
