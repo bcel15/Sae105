@@ -18,8 +18,8 @@
     <nav>
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="catalog.php">Catalogue</a></li>
-            <li><a href="cart.php" class="cart-link">Panier</a></li>
+            <li><a href="catalogue.php">Catalogue</a></li>
+            <li><a href="panier.php">Panier</a></li>
         </ul>
     </nav>
     </header>
