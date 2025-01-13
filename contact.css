@@ -33,7 +33,7 @@ section {
 .social-media img {
     width: 36px; /* Taille des logos réseaux sociaux */
     height: 36px;
-    filter: brightness(0) saturate(100%) sepia(100%) hue-rotate(180deg) brightness(1.2); /* Bleu clair */
+    filter: brightness(0) saturate(100%) sepia(100%) hue-rotate(180deg) saturate(500%) brightness(1.5); /* Bleu cyan */
     transition: all 0.3s ease-in-out; /* Transition fluide au survol */
 }
 
