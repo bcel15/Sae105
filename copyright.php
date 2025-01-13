@@ -83,36 +83,36 @@
 <main>
     <section>
         <h2>Responsable de la publication</h2>
-        <p>Ce site internet est édité par Saint Gervais Mont Blanc.<br>
-        Adresse : 74170 Saint-Gervais-les-Bains</p>
+        <p>Ce site internet est édité par CP parfums<br>
+        Adresse : 28 Av. du Lac d'Annecy, 73370 Le Bourget-du-Lac</p>
     </section>
 
     <section>
         <h2>Conception</h2>
-        <p>Réalisation : Benevol Agency<br>
-        Adresse : 17000 La Rochelle<br>
+        <p>Réalisation : Dickson Océane et Celikoz Betül<br>
+        Adresse : 73000 Chambéry<br>
         Téléphone : +33 (0)4 50 94 05 25</p>
     </section>
 
     <section>
         <h2>Hébergement</h2>
-        <p>L'hébergement du site est assuré par OVH.<br>
-        Adresse : 2 rue Kellermann - 59100 Roubaix - France</p>
+        <p>L'hébergement du site est assuré par un serveur de l'IUT MMI associé aux départements MMI.<br>
+        Adresse : 28 Av. du Lac d'Annecy, 73370 Le Bourget-du-Lac, France</p>
     </section>
 
     <section>
         <h2>Traitement des données personnelles</h2>
-        <p>Les données collectées sont utilisées uniquement dans le cadre de la relation commerciale avec Saint Gervais Mont Blanc.</p>
+        <p>Les messages électroniques envoyés à CP Parfums et les adresses électroniques utilisées pour l’envoi d’informations complémentaires sont susceptibles d’être conservées. Les informations recueillies pourront faire l’objet d’un traitement informatique destiné à CP Parfums. Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée en 2004, vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent, que vous pouvez exercer en vous adressant par courrier postal à CP Parfums, 18 Rue Balzac, 73000 Chambéry. Vous pouvez également, pour des motifs légitimes, vous opposer au traitement des données vous concernant.</p>
     </section>
 
     <section>
         <h2>Cookies</h2>
-        <p>Ce site utilise des cookies pour améliorer votre expérience de navigation. Vous pouvez configurer vos préférences dans les paramètres de votre navigateur.</p>
+        <p>Le site de CP Parfums n'implante aucun cookie dans votre ordinateur.</p>
     </section>
 
     <section>
         <h2>Responsabilité</h2>
-        <p>Saint Gervais Mont Blanc décline toute responsabilité en cas de dommages liés à l'utilisation du site.</p>
+        <p>CP Parfums décline toute responsabilité en cas de dommages liés à l'utilisation du site.</p>
     </section>
 
     <section>
@@ -127,7 +127,7 @@
 </main>
 
 <footer>
-    &copy; 2024 Saint Gervais Mont Blanc. Tous droits réservés.
+    &copy; 2025 CP Parfums. Tous droits réservés.
 </footer>
 
 </body>
