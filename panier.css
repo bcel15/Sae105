@@ -10,6 +10,7 @@ body {
     align-items: center; /* Centre les éléments horizontalement */
     min-height: 100vh; /* Hauteur minimale de la fenêtre */
 }
+
 header {
     background-color: #f3ece2; /* Si l'image n'est pas chargée */
     color: #f3ece2;
@@ -57,7 +58,6 @@ header nav ul li a {
     background-color: rgba(8, 19, 31, 0.4);
     border-radius: 30px;
     transition: background-color 0.3s ease;
-
 }
 
 header nav ul li a:hover {
@@ -74,7 +74,7 @@ main {
     width: 90%;  /* Prend une grande partie de l'écran */
     max-width: 1200px;
     box-sizing: border-box;
-    margin-top: 20px; /* Ajoute de l'espace au-dessus du tableau */
+    margin-top: 80px; /* Augmente l'espace au-dessus du tableau pour éviter qu'il se chevauche avec le menu */
 }
 
 /* Titre principal */

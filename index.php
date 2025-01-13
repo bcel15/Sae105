@@ -22,7 +22,7 @@
 <nav>
     <ul>
         <li><a href="index.php">Accueil</a></li>
-        <li><a href="contact.php">Contacter</a></li>
+        <li><a href="contact.php">Contact</a></li>
         <li><a href="catalogue.php">Catalogue</a></li>
         <li><a href="panier.php">Panier</a></li>
     </ul>
@@ -50,7 +50,7 @@
             <h2>Présentation de notre univers</h2>
             <figure>
                 <video controls>
-                    <source src="video.mp4" type="video/mp4">
+                    <source src="video.MP4" type="video/mp4">
                     Votre navigateur ne supporte pas la lecture de vidéo.
                 </video>
                 <figcaption>Découvrez notre histoire, nos valeurs, et ce qui rend nos parfums uniques dans cette courte vidéo.</figcaption>
