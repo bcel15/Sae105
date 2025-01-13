@@ -214,5 +214,6 @@
 </footer>
 
 <script defer src="catalogue.js"></script>
+<script defer src="panier.js"></script>
 </body>
 </html>

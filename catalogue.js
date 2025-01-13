@@ -41,6 +41,7 @@ function showCartPopup(name) {
 function addToCart(name, price, event) {
     // Empêcher le comportement par défaut du bouton (éviter qu'il recharge la page)
     event.preventDefault();
+    event.stopPropagation(); // Empêcher la propagation de l'événement
 
     // Récupérer le panier existant depuis localStorage
     const panier = JSON.parse(localStorage.getItem('panier')) || [];
@@ -63,7 +64,7 @@ function addToCartFromPopup() {
     const title = document.getElementById("details-title").innerText;
     const priceText = document.getElementById("details-prix").innerText;
     const price = parseFloat(priceText.replace('€', '').trim()); // Extraire le prix
-    addToCart(title, price);  // Appel à la fonction d'ajout au panier
+    addToCart(title, price, event);  // Appel à la fonction d'ajout au panier
 }
 
 // Fonction pour afficher les détails d'un parfum
