@@ -19,7 +19,7 @@
     <nav>
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="catalog.php">Produits</a></li>
+            <li><a href="catalog.php">Catalogue</a></li>
             <li><a href="cart.php" class="cart-link">Panier</a></li>
         </ul>
     </nav>
