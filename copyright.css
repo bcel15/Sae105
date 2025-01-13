@@ -19,7 +19,7 @@ header {
 
 header h1 {
     font-size: 3em;
-    color: #e8dfd2;
+    color: #ffffff;
     text-align: center;
     font-weight: bold;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.6);
@@ -33,7 +33,7 @@ main {
     max-width: 1000px;
     margin: 20px auto;
     background-color: #e8dfd2; /* Fond beige pour les sections principales */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
     border-radius: 8px;
 }
 
@@ -60,7 +60,7 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #c8bba9; /* Beige plus soutenu pour le pied de page */
-    color: #e8dfd2;
+    color: #ffffff;
     margin-top: 20px;
     font-size: 0.9em;
     border-top: 2px solid #a49787;
