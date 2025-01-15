@@ -59,34 +59,37 @@
     </main>
 
     <footer>
-    <div style="display: flex; justify-content: center; align-items: flex-start; padding: 20px; gap: 50px;">
-        <!-- Section Contact -->
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 50px; font-size: 18px;">
+        <!-- Section Contact (Gauche) -->
         <div style="text-align: left;">
-            <h3>Contact</h3>
-            <ul style="list-style: none; padding: 0;">
+            <h3 style="font-size: 22px;">Contact</h3>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
                 <li>Téléphone : 01 23 45 67 89</li>
                 <li>Email : contact@cpparfums.com</li>
             </ul>
         </div>
-        <!-- Section Droite centrée -->
+
+        <!-- Section Centrale -->
         <div style="text-align: center;">
-            <p>&copy; 2025 Magasin de Parfums</p>
-            <ul style="list-style: none; padding: 0;">
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="copyright.php">Mentions Légales</a></li>
+            <p style="font-size: 20px;">&copy; 2025 Magasin de Parfums</p>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li><a href="contact.php" style="text-decoration: none; color: #000;">Contact</a></li>
+                <li><a href="copyright.php" style="text-decoration: none; color: #000;">Mentions Légales</a></li>
             </ul>
         </div>
-        <!-- Section À propos -->
-        <div style="text-align: left;">
-            <h3>À propos</h3>
-            <ul style="list-style: none; padding: 0;">
+
+        <!-- Section À propos (Droite) -->
+        <div style="text-align: right;">
+            <h3 style="font-size: 22px;">À propos</h3>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
                 <li>Date de création : 20 décembre 2024</li>
                 <li>Créateurs : Océane Dickson et Betül Celikoz</li>
             </ul>
         </div>
-
     </div>
-    <p style="text-align: center;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
+
+    <!-- Mention Légale centrée en bas -->
+    <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
 </footer>
 
 </body>
