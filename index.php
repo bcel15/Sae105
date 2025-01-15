@@ -68,7 +68,14 @@
                 <li>Email : contact@cpparfums.com</li>
             </ul>
         </div>
-
+        <!-- Section Droite centrée -->
+        <div style="text-align: center;">
+            <p>&copy; 2025 Magasin de Parfums</p>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="copyright.php">Mentions Légales</a></li>
+            </ul>
+        </div>
         <!-- Section À propos -->
         <div style="text-align: left;">
             <h3>À propos</h3>
@@ -78,14 +85,6 @@
             </ul>
         </div>
 
-        <!-- Section Droite centrée -->
-        <div style="text-align: center;">
-            <p>&copy; 2025 Magasin de Parfums</p>
-            <ul style="list-style: none; padding: 0;">
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="copyright.php">Mentions Légales</a></li>
-            </ul>
-        </div>
     </div>
     <p style="text-align: center;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
 </footer>
