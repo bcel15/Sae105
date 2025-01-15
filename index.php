@@ -61,7 +61,7 @@
     <footer>
     <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 50px; font-size: 18px;">
         <!-- Section Contact (Gauche) -->
-        <div style="text-align: left;">
+        <div style="text-align: center;">
             <h3 style="font-size: 22px;">Contact</h3>
             <ul style="list-style: none; padding: 0; line-height: 1.8;">
                 <li>Téléphone : 01 23 45 67 89</li>
@@ -79,7 +79,7 @@
         </div>
 
         <!-- Section À propos (Droite) -->
-        <div style="text-align: right;">
+        <div style="text-align: center;">
             <h3 style="font-size: 22px;">À propos</h3>
             <ul style="list-style: none; padding: 0; line-height: 1.8;">
                 <li>Date de création : 20 décembre 2024</li>
