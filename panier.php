@@ -39,6 +39,16 @@
         <button id="validerPanier">Valider le panier</button>
     </main>
 
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Magasin de Parfums</p>
+            <ul>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="copyright.php">Mentions Légales</a></li>
+            </ul>
+        </div>
+    </footer>
+
     <script src="panier.js"></script>
 </body>
 </html>
