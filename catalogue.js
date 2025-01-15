@@ -60,7 +60,7 @@ function addToCart(name, price, event) {
 function addToCartFromPopup() {
     const title = document.getElementById("details-title").innerText;
     const priceText = document.getElementById("details-prix").innerText;
-    const price = parseFloat(priceText.replace('€', '').trim()); // Extraire le prix
+    const price = parseFloat(priceText.replace(/[^\d.,-]/g, '').replace(',', '.').trim()); // Extraire le prix
     addToCart(title, price, event);  // Appel à la fonction d'ajout au panier
 }
 
