@@ -69,14 +69,6 @@
             </ul>
         </div>
 
-        <!-- Section Centrale -->
-        <div style="text-align: center;">
-            <ul style="list-style: none; padding: 0; line-height: 1.8;">
-                <li><a href="contact.php" style="text-decoration: none; color: #000;">Contact</a></li>
-                <li><a href="copyright.php" style="text-decoration: none; color: #000;">Mentions Légales</a></li>
-            </ul>
-        </div>
-
         <!-- Section À propos (Droite) -->
         <div style="text-align: center;">
             <h3 style="font-size: 22px;">À propos</h3>
@@ -89,6 +81,13 @@
 
     <!-- Mention Légale centrée en bas -->
     <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2025 CP Parfums. Tous droits réservés.</p>
+    <div style="text-align: center;">
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li><a href="contact.php" style="text-decoration: none; color: #000;">Contact</a></li>
+                <li><a href="copyright.php" style="text-decoration: none; color: #000;">Mentions Légales</a></li>
+            </ul>
+        </div>
+
 </footer>
 
 </body>
