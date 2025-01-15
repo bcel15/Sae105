@@ -59,30 +59,31 @@
     </main>
 
     <footer>
-        <div style="display: flex; justify-content: space-between; padding: 20px;">
-            <div>
-                <h3>Contact</h3>
-                <ul>
-                    <li>Téléphone : 01 23 45 67 89</li>
-                    <li>Email : contact@cpparfums.com</li>
-                </ul>
-            </div>
-            <div>
-                <h3>À propos</h3>
-                <ul>
-                    <li>Date de création : 20 décembre 2024</li>
-                    <li>Créateurs : Océane Dickson et Betül Celikoz</li>
-                </ul>
-            </div>
-            <div class="footer-container">
-            <p>&copy; 2025 Magasin de Parfums</p>
+    <div style="display: flex; justify-content: space-between; padding: 20px;">
+        <div>
+            <h3>Contact</h3>
             <ul>
+                <li>Téléphone : 01 23 45 67 89</li>
+                <li>Email : contact@cpparfums.com</li>
+            </ul>
+        </div>
+        <div>
+            <h3>À propos</h3>
+            <ul>
+                <li>Date de création : 20 décembre 2024</li>
+                <li>Créateurs : Océane Dickson et Betül Celikoz</li>
+            </ul>
+        </div>
+        <div class="footer-container" style="text-align: center; width: 200px; margin: 0 auto;">
+            <p>&copy; 2025 Magasin de Parfums</p>
+            <ul style="list-style: none; padding: 0;">
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="copyright.php">Mentions Légales</a></li>
             </ul>
         </div>
-        </div>
-        <p style="text-align: center;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
-    </footer>
+    </div>
+    <p style="text-align: center;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
+</footer>
+
 </body>
 </html>
