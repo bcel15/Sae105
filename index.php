@@ -59,22 +59,27 @@
     </main>
 
     <footer>
-    <div style="display: flex; justify-content: space-between; padding: 20px;">
-        <div>
+    <div style="display: flex; justify-content: center; align-items: flex-start; padding: 20px; gap: 50px;">
+        <!-- Section Contact -->
+        <div style="text-align: left;">
             <h3>Contact</h3>
-            <ul>
+            <ul style="list-style: none; padding: 0;">
                 <li>Téléphone : 01 23 45 67 89</li>
                 <li>Email : contact@cpparfums.com</li>
             </ul>
         </div>
-        <div>
+
+        <!-- Section À propos -->
+        <div style="text-align: left;">
             <h3>À propos</h3>
-            <ul>
+            <ul style="list-style: none; padding: 0;">
                 <li>Date de création : 20 décembre 2024</li>
                 <li>Créateurs : Océane Dickson et Betül Celikoz</li>
             </ul>
         </div>
-        <div class="footer-container" style="text-align: center; width: 200px; margin: 0 auto;">
+
+        <!-- Section Droite centrée -->
+        <div style="text-align: center;">
             <p>&copy; 2025 Magasin de Parfums</p>
             <ul style="list-style: none; padding: 0;">
                 <li><a href="contact.php">Contact</a></li>
