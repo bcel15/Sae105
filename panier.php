@@ -38,7 +38,7 @@
 
         <button id="validerPanier">Valider le panier</button>
     </main>
-
-    <script src="panier.js"></script>
+    <script src="panier.js" defer></script>
+    <script src="catalogue.js" defer></script>
 </body>
 </html>
