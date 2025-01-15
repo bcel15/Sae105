@@ -74,9 +74,15 @@
                     <li>Créateurs : Océane Dickson et Betül Celikoz</li>
                 </ul>
             </div>
+            <div class="footer-container">
+            <p>&copy; 2025 Magasin de Parfums</p>
+            <ul>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="copyright.php">Mentions Légales</a></li>
+            </ul>
+        </div>
         </div>
         <p style="text-align: center;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
-

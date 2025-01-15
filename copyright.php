@@ -62,6 +62,12 @@
 
 <footer>
     &copy; 2025 CP Parfums. Tous droits réservés.
+        <div class="footer-container">
+            <ul>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="copyright.php">Mentions Légales</a></li>
+            </ul>
+        </div>
 </footer>
 
 </body>
