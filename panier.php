@@ -41,7 +41,7 @@
 
     <footer>
         <div class="footer-container">
-            <p>&copy; 2025 Magasin de Parfums</p>
+            <p>&copy; 2025 CP Parfums, tous droits réservés</p>
             <ul>
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="copyright.php">Mentions Légales</a></li>
