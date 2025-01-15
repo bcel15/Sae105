@@ -71,7 +71,6 @@
 
         <!-- Section Centrale -->
         <div style="text-align: center;">
-            <p style="font-size: 20px;">&copy; 2025 Magasin de Parfums</p>
             <ul style="list-style: none; padding: 0; line-height: 1.8;">
                 <li><a href="contact.php" style="text-decoration: none; color: #000;">Contact</a></li>
                 <li><a href="copyright.php" style="text-decoration: none; color: #000;">Mentions Légales</a></li>
@@ -89,7 +88,7 @@
     </div>
 
     <!-- Mention Légale centrée en bas -->
-    <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2024 CP Parfums. Tous droits réservés.</p>
+    <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2025 CP Parfums. Tous droits réservés.</p>
 </footer>
 
 </body>
