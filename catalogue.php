@@ -210,14 +210,37 @@
 </main>
 
 <footer>
-        <div class="footer-container">
-            <p>&copy; 2025 CP Parfums, tous droits réservés</p>
-            <ul>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="copyright.php">Mentions Légales</a></li>
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 50px; font-size: 18px;">
+        <!-- Section Contact (Gauche) -->
+        <div style="text-align: center;">
+            <h3 style="font-size: 22px;">Contact</h3>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li>Téléphone : 01 23 45 67 89</li>
+                <li>Email : contact@cpparfums.com</li>
             </ul>
         </div>
-    </footer>
+
+        <!-- Section À propos (Droite) -->
+        <div style="text-align: center;">
+            <h3 style="font-size: 22px;">À propos</h3>
+            <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                <li>Date de création : 20 décembre 2024</li>
+                <li>Créateurs : Océane Dickson et Betül Celikoz</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Liens Contact et Mentions Légales centrés -->
+    <div style="text-align: center; margin-top: 16px;">
+        <ul style="list-style: none; padding: 0; line-height: 1.8; display: inline-flex; gap: 20px;">
+            <li><a href="contact.php" style="text-decoration: none; color: #000; font-size: 18px;">Contact</a></li>
+            <li><a href="copyright.php" style="text-decoration: none; color: #000; font-size: 18px;">Mentions Légales</a></li>
+        </ul>
+    </div>
+
+    <!-- Mention Légale centrée en bas -->
+    <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2025 CP Parfums. Tous droits réservés.</p>
+</footer>
 
 <script defer src="catalogue.js"></script>
 </body>

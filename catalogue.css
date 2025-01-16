@@ -267,3 +267,41 @@ button:hover {
 button:active {
     transform: scale(1); /* Restaure la taille normale lorsqu'il est cliqué */
 }
+
+/* Pied de page optimisé */
+footer {
+    background-color: #66959b; /* Couleur uniforme avec l'ensemble */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 2%; /* Ajout d'un peu plus de padding pour aérer */
+    font-size: 0.85em; /* Texte légèrement réduit */
+    border-top: 2px solid #f3ece2; /* Transition douce avec le body */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer h3 {
+    margin-bottom: 5px;
+    font-size: 1em; /* Réduction de la taille du titre */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Adaptation sur petits écrans */
+    gap: 15px; /* Espacement entre les colonnes */
+}
+
+footer ul li {
+    margin: 0;
+    font-size: 0.85em; /* Taille des textes réduite */
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
