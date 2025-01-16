@@ -178,7 +178,8 @@ header nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-/* Pied de page */
+
+/* Pied de page optimisé */
 footer {
     background-color: #66959b; /* Couleur uniforme avec l'ensemble */
     color: #ffffff;
