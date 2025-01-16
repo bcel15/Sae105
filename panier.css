@@ -138,8 +138,4 @@ footer {
     width: 100%;
 }
 
-footer, .footer-container {
-    border: 2px solid red; /* Pour voir les limites actuelles */
-    background-color: lightblue; /* Couleur temporaire pour tester */
-}
 
