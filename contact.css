@@ -1,14 +1,9 @@
-/* Animation au survol */
-.social-media a:hover img {
-    transform: translateY(-5px); /* Remonte légèrement */
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%);
-}
-
-/* Mise à jour des couleurs principales */
+/* Corps de la page */
 body {
     background-color: #f3ece2; /* Couleur de fond principale (blanc cassé) */
 }
 
+/* Fond et sections */
 main {
     background-color: #f7f0e6; /* Fond beige pour le contenu principal */
 }
@@ -29,23 +24,18 @@ section {
     transition: all 0.3s ease-in-out; /* Transition fluide au survol */
 }
 
-/* Couleur #66959B par défaut */
+/* Couleur #456a73 par défaut */
 .social-media img {
     width: 36px;
     height: 36px;
-    filter: brightness(0) saturate(100%) invert(73%) sepia(11%) saturate(289%) hue-rotate(148deg) brightness(95%) contrast(86%);
+    filter: brightness(0) saturate(100%) invert(70%) sepia(24%) saturate(534%) hue-rotate(147deg) brightness(90%) contrast(90%);
     transition: all 0.3s ease-in-out;
 }
 
-/* Logo Facebook spécifique */
-.social-media a.facebook img {
-    width: 34px; /* Taille spécifique au logo Facebook */
-    height: 34px;
-}
-
-/* Logos deviennent bleu foncé au survol */
+/* Logos deviennent plus clairs au survol */
 .social-media a:hover img {
-    filter: brightness(0) invert(0.2) sepia(1) hue-rotate(200deg) saturate(300%);
+    transform: translateY(-5px); /* Remonte légèrement */
+    filter: brightness(0) saturate(100%) invert(40%) sepia(30%) saturate(600%) hue-rotate(147deg) brightness(120%) contrast(100%);
 }
 
 /* Section Hero Contact */
@@ -146,11 +136,17 @@ section {
 .contact-form button:hover {
     background-color: #345055; /* Couleur plus foncée au survol */
 }
+
+/* Header Banner */
 .header-banner {
-    position: relative;
+    background-image: url('baniere_cp.jpg');
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 300px; /* Hauteur de la bannière */
-    overflow: hidden;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-banner img {
@@ -170,18 +166,8 @@ section {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre pour améliorer la lisibilité */
     text-align: center;
 }
-.header-banner {
-    background-image: url('baniere_cp.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: none; /* Suppression de l'ombre sur l'image */
-}
 
+/* Navigation */
 header nav ul li a {
     text-decoration: none;
     color: #ffffff;
@@ -190,10 +176,9 @@ header nav ul li a {
     background-color: rgba(8, 19, 31, 0.4);
     border-radius: 30px;
     transition: background-color 0.3s ease;
-
 }
 
-/* Pied de page optimisé */
+/* Pied de page */
 footer {
     background-color: #66959b; /* Couleur uniforme avec l'ensemble */
     color: #ffffff;
