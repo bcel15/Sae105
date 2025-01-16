@@ -162,11 +162,11 @@ footer p {
     }
 }
 footer ul li a {
-    color: white; /* Couleur blanche par défaut */
-    text-decoration: none; /* Supprime le soulignement */
-    transition: color 0.3s ease; /* Animation douce sur le changement de couleur */
+    color: white !important; /* Couleur blanche par défaut */
+    text-decoration: none !important; /* Supprime le soulignement */
+    transition: color 0.3s ease !important; /* Animation douce sur le changement de couleur */
 }
 
 footer ul li a:hover {
-    color: #456a73; /* Couleur bleu foncé au survol */
+    color: #003366 !important; /* Couleur bleu foncé au survol */
 }
