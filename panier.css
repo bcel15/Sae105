@@ -134,4 +134,16 @@ footer {
     max-width: 100%; /* Supprimez toute restriction de largeur */
     margin: 0 auto; /* Centre le contenu horizontalement */
     padding: 0 10px; /* Optionnel : espace latéral */
+    max-width: none; /* Supprime les limites */
+    width: 100%;
+}
+
+footer, .footer-container {
+    border: 2px solid red; /* Pour voir les limites actuelles */
+    background-color: lightblue; /* Couleur temporaire pour tester */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
