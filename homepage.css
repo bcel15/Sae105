@@ -173,6 +173,6 @@ footer ul li a:hover {
 }
 /* Animation au survol */
 .social-media a:hover img {
-    transform: translateY(-5px); /* Remonte légèrement */
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%);
+    transform: translateY(-5px) !important; /* Remonte légèrement */
+    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
 }
