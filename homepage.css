@@ -169,5 +169,5 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #003366 !important; /* Couleur bleu foncé au survol */
-    transform: translateY(-5px) scale(1.1); /* Lien "vole" et grossit */
+    transform: translateY(-5px) scale(1.1) !important; /* Lien "vole" et grossit */
 }
