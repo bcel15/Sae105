@@ -171,3 +171,8 @@ footer ul li a:hover {
     color: #003366 !important; /* Couleur bleu foncé au survol */
     transform: translateY(-5px) scale(1.1) !important; /* Lien "vole" et grossit */
 }
+/* Animation au survol */
+.social-media a:hover img {
+    transform: translateY(-5px); /* Remonte légèrement */
+    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%);
+}
