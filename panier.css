@@ -123,3 +123,15 @@ button {
 button:hover {
     background-color: #456a73;
 }
+footer {
+    width: 100%;
+    background-color: #f0f0f0; /* Couleur de fond optionnelle */
+    text-align: center; /* Centre le contenu */
+    padding: 20px 0; /* Espacement vertical */
+}
+
+.footer-container {
+    max-width: 100%; /* Supprimez toute restriction de largeur */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+    padding: 0 10px; /* Optionnel : espace latéral */
+}
