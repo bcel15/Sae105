@@ -200,16 +200,6 @@ footer p {
     font-size: 0.8em;
 }
 
-footer a {
-    color: #ffffff; /* Blanc par défaut */
-    text-decoration: none;
-    transition: color 0.3s ease; /* Transition douce pour un effet fluide */
-}
-
-footer a:hover {
-    color: #000000; /* Noir au survol */
-}
-
 /* Responsivité globale */
 @media (max-width: 768px) {
     header h1 {
