@@ -142,8 +142,4 @@ footer, .footer-container {
     border: 2px solid red; /* Pour voir les limites actuelles */
     background-color: lightblue; /* Couleur temporaire pour tester */
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
