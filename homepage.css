@@ -106,6 +106,7 @@ figcaption {
 
 /* Pied de page optimisé */
 footer {
+    background-color: #66959b; /* Couleur uniforme avec l'ensemble */
     color: #ffffff;
     text-align: center;
     padding: 20px 2%; /* Ajout d'un peu plus de padding pour aérer */
