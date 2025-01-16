@@ -49,10 +49,6 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
-nav ul li a:hover {
-    background-color: #66959b; /* Couleur de survol des liens */
-}
-
 main {
     padding: 20px;
     max-width: 1200px;
@@ -199,6 +195,7 @@ footer p {
     margin-top: 10px;
     font-size: 0.8em;
 }
+
 
 /* Responsivité globale */
 @media (max-width: 768px) {
