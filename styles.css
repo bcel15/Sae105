@@ -197,46 +197,37 @@ footer p {
 }
 
 
-/* Responsivité globale */
+/* Responsivité */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2.5em; /* Réduction de la taille du titre pour les petits écrans */
+        font-size: 2.5em; /* Ajuste le titre pour écrans plus petits */
     }
 
     nav ul {
-        flex-direction: column;
-        align-items: center;
+        gap: 15px;
     }
 
-    nav ul li {
-        margin: 10px 0; /* Espacement vertical pour les petits écrans */
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    .video-container video {
-        width: 100%; /* Vidéo occupe toute la largeur de l'écran */
-    }
-
-    section {
-        padding: 15px;
-        font-size: 0.9em; /* Réduction légère de la taille du texte */
-    }
-}
-
-@media (max-width: 480px) {
-    nav ul li a {
-        font-size: 14px; /* Réduction de la taille des liens de navigation */
-        padding: 8px 10px;
-    }
-
-    section {
-        padding: 10px;
+    section p {
+        font-size: 1em; /* Réduit la taille du texte sur mobile */
     }
 
     footer {
-        font-size: 0.8em; /* Texte du pied de page légèrement réduit */
+        font-size: 0.8em; /* Pied de page encore plus compact */
+        padding: 8px 2%;
     }
+}
+footer ul li a {
+    color: white !important; /* Couleur blanche par défaut */
+    text-decoration: none !important; /* Supprime le soulignement */
+    transition: color 0.3s ease !important; /* Animation douce sur le changement de couleur */
+}
+
+footer ul li a:hover {
+    color: #003366 !important; /* Couleur bleu foncé au survol */
+    transform: translateY(-5px) scale(1.1) !important; /* Lien "vole" et grossit */
+}
+/* Animation au survol */
+.social-media a:hover img {
+    transform: translateY(-5px) !important; /* Remonte légèrement */
+    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
 }
