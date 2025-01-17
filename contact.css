@@ -1,166 +1,82 @@
-/* Styles Globaux */
+/* Corps de la page */
 body {
-    font-family: Arial, sans-serif;
+    background-color: #f3ece2; /* Couleur de fond principale (blanc cassé) */
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Permet de placer tout le contenu en colonne */
+    min-height: 100vh;
 }
 
-/* Header Styles */
-header {
-    background-color: #66959b; /* Même couleur que le footer */
-    color: white;
-    padding: 20px 2%;
-    text-align: center;
-    border-bottom: 2px solid #f3ece2;
+/* Fond et sections */
+main {
+    background-color: #f7f0e6; /* Fond beige pour le contenu principal */
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px; /* Largeur maximale du contenu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce pour le conteneur */
 }
 
-.header-banner img {
-    max-width: 100%;
-    height: auto;
+section {
+    background-color: #f7f0e6; /* Fond beige pour les sections */
+    margin: 20px auto; /* Ajout d'un espace entre les sections */
+    padding: 20px;
+    max-width: 1200px;
+}
+
+/* Header Banner */
+.header-banner {
+    position: relative;
+    background-image: url('baniere_cp.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* La bannière prend toute la hauteur de la page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Supprime les marges */
 }
 
 .header-banner h1 {
+    position: absolute;
+    color: #ffffff;
     font-size: 2.5em;
-    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre pour une meilleure lisibilité */
+    text-align: center;
+    margin: 0;
 }
 
-/* Navigation Styles */
-nav {
-    background-color: #66959b; /* Fond bleu uniforme */
-    padding: 10px 2%;
-}
-
-nav ul {
+/* Navigation */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
+    background-color: #456a73;
+    gap: 15px;
 }
 
-nav ul li {
+header nav ul li {
     margin: 0;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
-    color: white;
-    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
     padding: 10px 20px;
-    background-color: #66959b; /* Même couleur que le footer */
-    border: 2px solid #f3ece2;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: rgba(8, 19, 31, 0.4);
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-    background-color: #003366; /* Effet hover : bleu foncé */
-    transform: scale(1.1); /* Agrandissement léger */
-}
-
-/* Hero Section Styles */
-.hero-contact {
-    background-color: #66959b; /* Fond bleu uniforme */
-    color: white;
-    padding: 50px 5%;
-    text-align: center;
-}
-
-.hero-contact h2 {
-    font-size: 2em;
-    margin: 0;
-}
-
-/* Formulaire de Contact */
-.contact-form {
-    background-color: white;
-    border: 1px solid #f3ece2;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px 10%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form h3 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #003366;
-}
-
-.contact-form .form-group {
-    margin-bottom: 15px;
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    color: #003366;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.contact-form button {
-    background-color: #66959b;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.contact-form button:hover {
+header nav ul li a:hover {
     background-color: #003366;
-    transform: scale(1.05);
-}
-
-/* Contact Details Section */
-.contact-details {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10%;
-    gap: 20px;
-}
-
-.contact-left, .contact-right {
-    flex: 1;
-    background-color: white;
-    border: 1px solid #f3ece2;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-left h3, .contact-right h3 {
-    color: #003366;
-    margin-bottom: 15px;
-}
-
-.contact-left p, .contact-right p {
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-
-/* Réseaux sociaux */
-.social-media a img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.social-media a:hover img {
-    transform: translateY(-5px);
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%);
 }
 
 /* Footer Styles */
@@ -168,12 +84,13 @@ footer {
     background-color: #66959b;
     color: #ffffff;
     text-align: center;
-    padding: 20px 2%;
+    padding: 20px 0; /* Ajusté pour prendre toute la largeur */
     font-size: 0.85em;
     border-top: 2px solid #f3ece2;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%; /* Prend toute la largeur */
 }
 
 footer h3 {
@@ -207,9 +124,136 @@ footer ul li a:hover {
     transform: translateY(-5px) scale(1.1) !important;
 }
 
+footer .social-media a:hover {
+    color: #003366;
+}
+
 footer p {
     margin-top: 10px;
     font-size: 0.8em;
+}
+
+/* Social Media Hover Animation */
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    transition: all 0.3s ease-in-out; /* Transition fluide au survol */
+}
+
+.social-media img {
+    width: 36px;
+    height: 36px;
+    filter: brightness(0) saturate(100%) invert(70%) sepia(24%) saturate(534%) hue-rotate(147deg) brightness(90%) contrast(90%);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Logos deviennent bleu foncé au survol */
+.social-media a:hover img {
+    transform: translateY(-5px); /* Remonte légèrement */
+    filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(1000%) hue-rotate(220deg) brightness(120%) contrast(100%);
+}
+
+/* Section Hero Contact */
+.hero-contact {
+    text-align: center;
+    background-color: #f7f0e6; /* Fond beige clair */
+    padding: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    max-width: 1200px;
+    margin: 0 auto; /* Centrage horizontal */
+}
+
+.hero-image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espacement entre l'image et le texte */
+}
+
+.hero-image img.info-image {
+    max-width: 100%;
+    width: 200px; /* Taille ajustée pour l'image */
+    height: auto;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre pour l'image */
+}
+
+.hero-image h2 {
+    font-size: 1.8em;
+    color: #456a73; /* Nouvelle couleur principale pour les titres */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Légère ombre pour le texte */
+}
+
+/* Section du formulaire de contact */
+.contact-form {
+    background-color: #f9f9f9; /* Fond clair pour le formulaire */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    font-family: Arial, sans-serif; /* Police principale */
+    max-width: 800px; /* Largeur du formulaire */
+    margin: 0 auto; /* Centrage horizontal */
+}
+
+.contact-form h3 {
+    text-align: center;
+    color: #333333; /* Couleur sombre pour les titres */
+    margin-bottom: 15px;
+    font-size: 1.8em; /* Taille des titres du formulaire */
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px; /* Espacement entre les champs */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #456a73; /* Nouvelle couleur pour les étiquettes */
+    font-size: 1em;
+}
+
+.contact-form label span {
+    color: #ff0000; /* Couleur pour indiquer les champs requis */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #456a73; /* Nouvelle couleur pour les bordures des champs */
+    background-color: #e4e8f1; /* Fond des champs */
+    border-radius: 0;
+    font-size: 1em;
+    box-sizing: border-box; /* Inclure padding et bordures dans la taille totale */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #345055; /* Couleur plus foncée au focus */
+}
+
+.contact-form button {
+    background-color: #456a73; /* Nouvelle couleur pour les boutons */
+    color: #ffffff; /* Texte blanc */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Transition fluide pour le bouton */
+}
+
+.contact-form button:hover {
+    background-color: #345055; /* Couleur plus foncée au survol */
 }
 
 /* Responsive Styles */
@@ -219,21 +263,11 @@ footer p {
     }
 
     nav ul {
-        flex-wrap: wrap;
         gap: 10px;
-    }
-
-    section p {
-        font-size: 1em;
     }
 
     footer {
         font-size: 0.8em;
-        padding: 10px 2%;
-    }
-
-    .contact-details {
-        flex-direction: column;
-        gap: 20px;
+        padding: 8px 2%;
     }
 }
