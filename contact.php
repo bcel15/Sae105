@@ -11,7 +11,6 @@
 <body>
     <header>
         <div class="header-banner">
-            <img src="baniere_cp" alt="Bannière Magasin de Parfums">
             <h1>Magasin de Parfums</h1>
         </div>
 
