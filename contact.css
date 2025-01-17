@@ -3,17 +3,22 @@ body {
     background-color: #f3ece2; /* Couleur de fond principale (blanc cassé) */
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
 }
 
-/* Fond et sections */
+/* Conteneur principal */
 main {
     background-color: #f7f0e6; /* Fond beige pour le contenu principal */
-    margin: 0;
-    padding: 0;
-}
-
-section {
-    background-color: #f7f0e6; /* Fond beige pour les sections */
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px; /* Limite la largeur maximale */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border-radius: 10px; /* Coins arrondis */
 }
 
 /* Header Banner */
@@ -27,7 +32,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0; /* Éliminer l'espace sous la bannière */
 }
 
 .header-banner h1 {
@@ -131,15 +135,9 @@ footer p {
     transition: all 0.3s ease-in-out;
 }
 
-/* Logos deviennent plus clairs au survol */
 .social-media a:hover img {
     transform: translateY(-5px); /* Remonte légèrement */
     filter: brightness(0) saturate(100%) invert(40%) sepia(30%) saturate(600%) hue-rotate(147deg) brightness(120%) contrast(100%);
-}
-
-.social-media a:hover img {
-    transform: translateY(-5px) !important;
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
 }
 
 /* Section Hero Contact */
