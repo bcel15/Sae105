@@ -50,7 +50,7 @@
             <h2>Présentation de notre univers</h2>
             <figure>
                 <video controls>
-                    <source src="vidéo.MP4" type="video/mp4">
+                    <source src="Video.mp4" type="video/mp4">
                     Votre navigateur ne supporte pas la lecture de vidéo.
                 </video>
                 <figcaption>Découvrez notre histoire, nos valeurs, et ce qui rend nos parfums uniques dans cette courte vidéo.</figcaption>
