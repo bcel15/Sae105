@@ -4,21 +4,27 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centre le contenu horizontalement */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Permet de placer tout le contenu en colonne */
+    min-height: 100vh;
 }
 
 /* Fond et sections */
 main {
     background-color: #f7f0e6; /* Fond beige pour le contenu principal */
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: 1200px; /* Largeur maximale pour centrer le contenu */
+    max-width: 1200px; /* Largeur maximale du contenu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce pour le conteneur */
 }
 
 section {
     background-color: #f7f0e6; /* Fond beige pour les sections */
-    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
 }
 
 /* Header Banner */
@@ -28,11 +34,12 @@ section {
     background-size: cover;
     background-position: center;
     width: 100%;
+    max-width: 1200px;
     height: 300px; /* Ajustez la hauteur si nécessaire */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0; /* Éliminer l'espace sous la bannière */
+    margin: 0 auto; /* Centrage horizontal */
 }
 
 .header-banner h1 {
@@ -84,6 +91,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 footer h3 {
@@ -142,11 +152,6 @@ footer p {
     filter: brightness(0) saturate(100%) invert(40%) sepia(30%) saturate(600%) hue-rotate(147deg) brightness(120%) contrast(100%);
 }
 
-.social-media a:hover img {
-    transform: translateY(-5px) !important;
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
-}
-
 /* Section Hero Contact */
 .hero-contact {
     text-align: center;
@@ -155,6 +160,8 @@ footer p {
     border-radius: 10px; /* Coins arrondis */
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    max-width: 1200px;
+    margin: 0 auto; /* Centrage horizontal */
 }
 
 .hero-image {
@@ -187,10 +194,8 @@ footer p {
     border-radius: 10px; /* Coins arrondis */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
     font-family: Arial, sans-serif; /* Police principale */
-    width: 100%;
-    max-width: 600px; /* Limite la largeur du formulaire */
-    margin-left: auto;
-    margin-right: auto; /* Centre horizontalement */
+    max-width: 800px; /* Largeur du formulaire */
+    margin: 0 auto; /* Centrage horizontal */
 }
 
 .contact-form h3 {
