@@ -14,7 +14,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: #1DA1F2; /* Bleu Twitter */
+            background-color: #000000; /* noir Twitter */
             color: white;
             text-align: center;
         }
@@ -23,7 +23,7 @@
         .logo {
             width: 150px;
             height: 150px;
-            background-image: url('https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg');
+            background-image: url('https://tinyurl.com/y665tbrf');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
