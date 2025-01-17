@@ -1,40 +1,29 @@
 /* Corps de la page */
 body {
-    background-color: #f3ece2; /* Couleur de fond principale (blanc cassé) */
+    background-color: #f3ece2;
     margin: 0;
     padding: 0;
 }
 
-/* Fond et sections */
-main {
-    background-color: #f7f0e6; /* Fond beige pour le contenu principal */
-    margin: 0;
-    padding: 0;
-}
-
-section {
-    background-color: #f7f0e6; /* Fond beige pour les sections */
-}
-
-/* Header Banner */
+/* Bannière d'en-tête */
 .header-banner {
     position: relative;
-    background-image: url('baniere_cp.jpg');
+    background-image: url('baniere_cp.jpg'); /* Remplacez par le chemin correct de votre image */
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 300px; /* Ajustez la hauteur si nécessaire */
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0; /* Éliminer l'espace sous la bannière */
+    margin: 0;
 }
 
 .header-banner h1 {
     position: absolute;
     color: #ffffff;
     font-size: 2.5em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre pour une meilleure lisibilité */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     text-align: center;
     margin: 0;
 }
@@ -48,10 +37,6 @@ header nav ul {
     justify-content: center;
     background-color: #456a73;
     gap: 15px;
-}
-
-header nav ul li {
-    margin: 0;
 }
 
 header nav ul li a {
@@ -68,143 +53,44 @@ header nav ul li a:hover {
     background-color: #003366;
 }
 
-/* Footer Styles */
-footer {
-    background-color: #66959b;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 2%;
-    font-size: 0.85em;
-    border-top: 2px solid #f3ece2;
+/* Section principale */
+main {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center; /* Centrer les éléments horizontalement */
+    gap: 20px; /* Espacement entre les sections */
+    margin: 0; /* Supprimer les marges extérieures */
+    padding: 20px; /* Ajout d’un padding global */
+    background-color: #f3ece2;
 }
 
-footer h3 {
-    margin-bottom: 5px;
-    font-size: 1em;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-footer ul li {
-    margin: 0;
-    font-size: 0.85em;
-}
-
-footer ul li a {
-    color: white !important;
-    text-decoration: none !important;
-    transition: color 0.3s ease !important;
-}
-
-footer ul li a:hover {
-    color: #003366 !important;
-    transform: translateY(-5px) scale(1.1) !important;
-}
-
-footer p {
-    margin-top: 10px;
-    font-size: 0.8em;
-}
-
-/* Social Media Hover Animation */
-.social-media a {
-    display: inline-block;
-    margin: 10px;
-    transition: all 0.3s ease-in-out; /* Transition fluide au survol */
-}
-
-.social-media img {
-    width: 36px;
-    height: 36px;
-    filter: brightness(0) saturate(100%) invert(70%) sepia(24%) saturate(534%) hue-rotate(147deg) brightness(90%) contrast(90%);
-    transition: all 0.3s ease-in-out;
-}
-
-/* Logos deviennent plus clairs au survol */
-.social-media a:hover img {
-    transform: translateY(-5px); /* Remonte légèrement */
-    filter: brightness(0) saturate(100%) invert(40%) sepia(30%) saturate(600%) hue-rotate(147deg) brightness(120%) contrast(100%);
-}
-
-.social-media a:hover img {
-    transform: translateY(-5px) !important;
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
-}
-
-/* Section Hero Contact */
-.hero-contact {
-    text-align: center;
-    background-color: #f7f0e6; /* Fond beige clair */
-    padding: 20px;
-    border-radius: 10px; /* Coins arrondis */
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
-}
-
-.hero-image {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; /* Espacement entre l'image et le texte */
-}
-
-.hero-image img.info-image {
-    max-width: 100%;
-    width: 200px; /* Taille ajustée pour l'image */
-    height: auto;
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre pour l'image */
-}
-
-.hero-image h2 {
-    font-size: 1.8em;
-    color: #456a73; /* Nouvelle couleur principale pour les titres */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Légère ombre pour le texte */
-}
-
-/* Section du formulaire de contact */
+/* Formulaire de contact */
 .contact-form {
-    background-color: #f9f9f9; /* Fond clair pour le formulaire */
+    width: 100%;
+    max-width: 600px; /* Largeur maximale du formulaire */
+    background-color: #f9f9f9;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
-    font-family: Arial, sans-serif; /* Police principale */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
 }
 
 .contact-form h3 {
     text-align: center;
-    color: #333333; /* Couleur sombre pour les titres */
+    color: #333333;
     margin-bottom: 15px;
-    font-size: 1.8em; /* Taille des titres du formulaire */
+    font-size: 1.8em;
 }
 
 .contact-form .form-group {
-    margin-bottom: 20px; /* Espacement entre les champs */
+    margin-bottom: 20px;
 }
 
 .contact-form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #456a73; /* Nouvelle couleur pour les étiquettes */
-    font-size: 1em;
-}
-
-.contact-form label span {
-    color: #ff0000; /* Couleur pour indiquer les champs requis */
+    color: #456a73;
 }
 
 .contact-form input,
@@ -212,47 +98,57 @@ footer p {
     width: 100%;
     padding: 10px;
     border: none;
-    border-bottom: 2px solid #456a73; /* Nouvelle couleur pour les bordures des champs */
-    background-color: #e4e8f1; /* Fond des champs */
+    border-bottom: 2px solid #456a73;
+    background-color: #e4e8f1;
     border-radius: 0;
     font-size: 1em;
-    box-sizing: border-box; /* Inclure padding et bordures dans la taille totale */
+    box-sizing: border-box;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-bottom: 2px solid #345055; /* Couleur plus foncée au focus */
+    border-bottom: 2px solid #345055;
 }
 
 .contact-form button {
-    background-color: #456a73; /* Nouvelle couleur pour les boutons */
-    color: #ffffff; /* Texte blanc */
+    background-color: #456a73;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; /* Coins arrondis */
+    border-radius: 5px;
     font-size: 1.1em;
     cursor: pointer;
     width: 100%;
-    transition: background-color 0.3s ease; /* Transition fluide pour le bouton */
+    transition: background-color 0.3s ease;
 }
 
 .contact-form button:hover {
-    background-color: #345055; /* Couleur plus foncée au survol */
+    background-color: #345055;
 }
 
-/* Responsive Styles */
+/* Pied de page */
+footer {
+    background-color: #66959b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 2%;
+    font-size: 0.85em;
+}
+
+/* Suppression des marges inutiles entre les sections */
+section {
+    margin: 0; /* Supprime les marges */
+    padding: 20px 0; /* Ajoute de l'espacement interne uniquement */
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-    header h1 {
+    .header-banner h1 {
         font-size: 2em;
     }
 
-    nav ul {
-        gap: 10px;
-    }
-
-    footer {
-        font-size: 0.8em;
-        padding: 8px 2%;
+    .contact-form {
+        padding: 15px;
     }
 }
