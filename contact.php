@@ -77,9 +77,9 @@
                 <p><strong>Email :</strong> <a href="mailto:contact@magasindeparfums.fr">contact@magasindeparfums.fr</a></p>
                 <h4>Suivez-nous :</h4>
                 <div class="social-media">
-                    <a href="404.php" class="facebook"><img src="logo_facebook.png" alt="Facebook"></a>
-                    <a href="404.php" class="instagram"><img src="logo_insta.webp" alt="Instagram"></a>
-                    <a href="404.php" class="twitter"><img src="logo_x.webp" alt="X"></a>
+                    <a href="facebook.php" class="facebook"><img src="logo_facebook.png" alt="Facebook"></a>
+                    <a href="instagram.php" class="instagram"><img src="logo_insta.webp" alt="Instagram"></a>
+                    <a href="twitter.php" class="twitter"><img src="logo_x.webp" alt="X"></a>
                 </div>
             </div>
         </section>
