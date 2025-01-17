@@ -36,7 +36,9 @@
             </tbody>
         </table>
 
-        <button id="validerPanier">Valider le panier</button>
+        <form action="achat.php" method="GET">
+            <button id="validerPanier">Valider le panier</button>
+        </form>
     </main>
 
     <footer>
