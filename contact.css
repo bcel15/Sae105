@@ -62,7 +62,6 @@ header nav ul {
     margin: 0; 
     display: flex;
     justify-content: center;
-    background-color: #456a73;
     gap: 15px; /* Espace entre les éléments du menu */
     border-radius: 10px; /* Coins arrondis du menu */
 }
