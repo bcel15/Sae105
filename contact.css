@@ -34,12 +34,11 @@ section {
     background-size: cover;
     background-position: center;
     width: 100%;
-    max-width: 1200px;
-    height: 300px; /* Ajustez la hauteur si nécessaire */
+    height: 100vh; /* La bannière prend toute la hauteur de la page */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto; /* Centrage horizontal */
+    margin: 0; /* Supprime les marges */
 }
 
 .header-banner h1 {
