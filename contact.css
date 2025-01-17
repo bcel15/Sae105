@@ -1,30 +1,129 @@
 /* Corps de la page */
 body {
     background-color: #f3ece2; /* Couleur de fond principale (blanc cassé) */
+    margin: 0;
+    padding: 0;
 }
 
 /* Fond et sections */
 main {
     background-color: #f7f0e6; /* Fond beige pour le contenu principal */
+    margin: 0;
+    padding: 0;
 }
 
 section {
     background-color: #f7f0e6; /* Fond beige pour les sections */
 }
 
-/* Fil d'Ariane */
-.breadcrumb {
-    background-color: #f7f0e6; /* Fond beige pour le fil d'Ariane */
+/* Header Banner */
+.header-banner {
+    position: relative;
+    background-image: url('baniere_cp.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px; /* Ajustez la hauteur si nécessaire */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0; /* Éliminer l'espace sous la bannière */
 }
 
-/* Section des réseaux sociaux */
+.header-banner h1 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre pour une meilleure lisibilité */
+    text-align: center;
+    margin: 0;
+}
+
+/* Navigation */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #456a73;
+    gap: 15px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgba(8, 19, 31, 0.4);
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #003366;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #66959b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 2%;
+    font-size: 0.85em;
+    border-top: 2px solid #f3ece2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer h3 {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+footer ul li {
+    margin: 0;
+    font-size: 0.85em;
+}
+
+footer ul li a {
+    color: white !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+footer ul li a:hover {
+    color: #003366 !important;
+    transform: translateY(-5px) scale(1.1) !important;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+/* Social Media Hover Animation */
 .social-media a {
     display: inline-block;
     margin: 10px;
     transition: all 0.3s ease-in-out; /* Transition fluide au survol */
 }
 
-/* Couleur #456a73 par défaut */
 .social-media img {
     width: 36px;
     height: 36px;
@@ -36,6 +135,11 @@ section {
 .social-media a:hover img {
     transform: translateY(-5px); /* Remonte légèrement */
     filter: brightness(0) saturate(100%) invert(40%) sepia(30%) saturate(600%) hue-rotate(147deg) brightness(120%) contrast(100%);
+}
+
+.social-media a:hover img {
+    transform: translateY(-5px) !important;
+    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
 }
 
 /* Section Hero Contact */
@@ -137,44 +241,18 @@ section {
     background-color: #345055; /* Couleur plus foncée au survol */
 }
 
-/* Header Banner */
-.header-banner {
-    background-image: url('baniere_cp.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
 
-.header-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajuste l'image pour remplir la bannière sans distorsion */
-    filter: brightness(0.7); /* Assombrit légèrement l'image pour le texte */
-}
+    nav ul {
+        gap: 10px;
+    }
 
-.header-banner h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    font-size: 2.5em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre pour améliorer la lisibilité */
-    text-align: center;
+    footer {
+        font-size: 0.8em;
+        padding: 8px 2%;
+    }
 }
-
-/* Navigation */
-header nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 10px 20px;
-    background-color: rgba(8, 19, 31, 0.4);
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
-}
-

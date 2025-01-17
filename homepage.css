@@ -1,13 +1,14 @@
-/* Styles spécifiques à la page d'accueil inspirée de Dior */
+/* General Styles */
 body {
     font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: #f3ece2; /* Uniformise le fond avec le beige */
+    background-color: #f3ece2;
     color: #444;
     line-height: 1.6;
 }
 
+/* Header Section */
 header {
     position: relative;
     height: 100vh;
@@ -23,7 +24,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: none; /* Suppression de l'ombre sur l'image */
+    box-shadow: none;
 }
 
 header h1 {
@@ -34,6 +35,7 @@ header h1 {
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Navigation Styles */
 nav ul {
     list-style: none;
     padding: 0;
@@ -61,18 +63,20 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+/* Main Content */
 main {
     padding: 60px 20px;
     max-width: 1200px;
     margin: 20px auto;
 }
 
+/* Section Styles */
 section {
     margin-bottom: 50px;
     padding: 20px;
-    background-color: #f3ece2; /* Même couleur que le fond du body */
-    border-radius: 12px; /* Garde des bords arrondis pour un style doux */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre rétablie pour les sections */
+    background-color: #f3ece2;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -84,9 +88,9 @@ section h2 {
 
 section p {
     text-align: justify;
-    font-size: 1.1em; /* Réduit légèrement la taille du texte */
+    font-size: 1.1em;
     line-height: 1.8;
-    word-wrap: break-word; /* Assure que les mots longs sont coupés */
+    word-wrap: break-word;
 }
 
 figure {
@@ -104,14 +108,14 @@ figcaption {
     color: #66959b;
 }
 
-/* Pied de page optimisé */
+/* Footer Styles */
 footer {
-    background-color: #66959b; /* Couleur uniforme avec l'ensemble */
+    background-color: #66959b;
     color: #ffffff;
     text-align: center;
-    padding: 20px 2%; /* Ajout d'un peu plus de padding pour aérer */
-    font-size: 0.85em; /* Texte légèrement réduit */
-    border-top: 2px solid #f3ece2; /* Transition douce avec le body */
+    padding: 20px 2%;
+    font-size: 0.85em;
+    border-top: 2px solid #f3ece2;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -119,7 +123,7 @@ footer {
 
 footer h3 {
     margin-bottom: 5px;
-    font-size: 1em; /* Réduction de la taille du titre */
+    font-size: 1em;
 }
 
 footer ul {
@@ -128,13 +132,24 @@ footer ul {
     margin: 0;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; /* Adaptation sur petits écrans */
-    gap: 15px; /* Espacement entre les colonnes */
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 footer ul li {
     margin: 0;
-    font-size: 0.85em; /* Taille des textes réduite */
+    font-size: 0.85em;
+}
+
+footer ul li a {
+    color: white !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+footer ul li a:hover {
+    color: #003366 !important;
+    transform: translateY(-5px) scale(1.1) !important;
 }
 
 footer p {
@@ -142,10 +157,16 @@ footer p {
     font-size: 0.8em;
 }
 
-/* Responsivité */
+/* Social Media Hover Animation */
+.social-media a:hover img {
+    transform: translateY(-5px) !important;
+    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2.5em; /* Ajuste le titre pour écrans plus petits */
+        font-size: 2.5em;
     }
 
     nav ul {
@@ -153,26 +174,11 @@ footer p {
     }
 
     section p {
-        font-size: 1em; /* Réduit la taille du texte sur mobile */
+        font-size: 1em;
     }
 
     footer {
-        font-size: 0.8em; /* Pied de page encore plus compact */
+        font-size: 0.8em;
         padding: 8px 2%;
     }
-}
-footer ul li a {
-    color: white !important; /* Couleur blanche par défaut */
-    text-decoration: none !important; /* Supprime le soulignement */
-    transition: color 0.3s ease !important; /* Animation douce sur le changement de couleur */
-}
-
-footer ul li a:hover {
-    color: #003366 !important; /* Couleur bleu foncé au survol */
-    transform: translateY(-5px) scale(1.1) !important; /* Lien "vole" et grossit */
-}
-/* Animation au survol */
-.social-media a:hover img {
-    transform: translateY(-5px) !important; /* Remonte légèrement */
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
 }
