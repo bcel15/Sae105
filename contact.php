@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -33,8 +33,8 @@
 
         <section class="contact-form">
             <h3>Contactez-nous</h3>
-            <!-- Le formulaire redirige maintenant vers confirmation.html -->
-            <form action="confirmation.html" method="post">
+            <!-- Le formulaire redirige maintenant vers message.php -->
+            <form action="message.php" method="post">
                 <div class="form-group">
                     <label for="prenom">Prénom <span>*</span></label>
                     <input type="text" id="prenom" name="prenom" required>
