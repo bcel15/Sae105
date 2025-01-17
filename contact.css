@@ -58,18 +58,13 @@ header nav {
 
 header nav ul {
     list-style: none;
-    padding: 10px; /* Ajoute un padding interne */
-    margin: 0 auto 20px auto; /* Ajoute un espace en bas du menu */
+    padding: 0;
+    margin: 0; 
     display: flex;
     justify-content: center;
     background-color: #456a73;
     gap: 15px; /* Espace entre les éléments du menu */
     border-radius: 10px; /* Coins arrondis du menu */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Ajoute une ombre pour le menu */
-}
-
-header nav ul li {
-    margin: 0;
 }
 
 header nav ul li a {
