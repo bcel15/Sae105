@@ -1,16 +1,17 @@
-/* Styles globaux pour le site */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3ece2; /* Fond clair et doux */
-    color: #456a73; /* Texte sombre et lisible */
+    background-color: #f3ece2;
+    color: #456a73;
     line-height: 1.6;
 }
 
+/* Header Styles */
 header {
     position: relative;
-    height: 100vh; /* Hauteur pleine de l'écran */
+    height: 100vh;
     width: 100%;
 }
 
@@ -19,20 +20,20 @@ header h1 {
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 
-                 0 0 10px rgba(0, 0, 0, 0.6); /* Contour sombre pour le titre */
-    background-color: rgba(0, 0, 0, 0.3); /* Fond transparent derrière le texte */
-    padding: 10px 20px; /* Espacement autour du texte */
-    border-radius: 8px; /* Coins légèrement arrondis */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
 }
 
+/* Navigation Styles */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0;
     display: flex;
     justify-content: center;
-    background-color:#66959b; /* Bleu-gris clair */
+    background-color: #66959b;
     border-radius: 8px;
 }
 
@@ -49,30 +50,32 @@ nav ul li a {
     transition: background-color 0.3s;
 }
 
+/* Main Content */
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
-    background-color: #f3ece2; /* Fond doux pour les sections principales */
+    background-color: #f3ece2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
+/* Section Styles */
 section {
     margin-bottom: 30px;
     padding: 20px;
     border: 1px solid #d8ddd7;
     border-radius: 5px;
-    background-color:#f3ece2;; /* Beige clair et apaisant, en harmonie avec la photo */
+    background-color: #f3ece2;
 }
 
-h2 {
+section h2 {
     text-align: center;
-    color: #456a73; /* Couleur du texte adaptée à la palette */
+    color: #456a73;
     margin-bottom: 15px;
 }
 
-p {
+section p {
     margin: 10px 0;
     text-align: justify;
 }
@@ -94,7 +97,7 @@ figcaption {
     color: #66959b;
 }
 
-
+/* Breadcrumb Styles */
 .breadcrumb {
     background-color: #acdee3;
     padding: 10px 20px;
@@ -141,7 +144,7 @@ figcaption {
     color: white;
 }
 
-/* Styles pour la vidéo */
+/* Video Container */
 .video-container {
     display: flex;
     justify-content: center;
@@ -150,22 +153,21 @@ figcaption {
 }
 
 .video-container video {
-    width: 80%; /* Taille ajustée à 80% de la largeur de l'écran */
-    max-width: 900px; /* Largeur maximale pour les écrans plus grands */
+    width: 80%;
+    max-width: 900px;
     height: auto;
     border: 3px solid #456a73;
     border-radius: 10px;
 }
 
-
-/* Pied de page optimisé */
+/* Footer Styles */
 footer {
-    background-color: #66959b; /* Couleur uniforme avec l'ensemble */
+    background-color: #66959b;
     color: #ffffff;
     text-align: center;
-    padding: 20px 2%; /* Ajout d'un peu plus de padding pour aérer */
-    font-size: 0.85em; /* Texte légèrement réduit */
-    border-top: 2px solid #f3ece2; /* Transition douce avec le body */
+    padding: 20px 2%;
+    font-size: 0.85em;
+    border-top: 2px solid #f3ece2;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -173,7 +175,7 @@ footer {
 
 footer h3 {
     margin-bottom: 5px;
-    font-size: 1em; /* Réduction de la taille du titre */
+    font-size: 1em;
 }
 
 footer ul {
@@ -182,13 +184,24 @@ footer ul {
     margin: 0;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; /* Adaptation sur petits écrans */
-    gap: 15px; /* Espacement entre les colonnes */
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 footer ul li {
     margin: 0;
-    font-size: 0.85em; /* Taille des textes réduite */
+    font-size: 0.85em;
+}
+
+footer ul li a {
+    color: white !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+footer ul li a:hover {
+    color: #003366 !important;
+    transform: translateY(-5px) scale(1.1) !important;
 }
 
 footer p {
@@ -196,11 +209,16 @@ footer p {
     font-size: 0.8em;
 }
 
+/* Social Media Hover Animation */
+.social-media a:hover img {
+    transform: translateY(-5px) !important;
+    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
+}
 
-/* Responsivité */
+/* Responsive Styles */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2.5em; /* Ajuste le titre pour écrans plus petits */
+        font-size: 2.5em;
     }
 
     nav ul {
@@ -208,26 +226,11 @@ footer p {
     }
 
     section p {
-        font-size: 1em; /* Réduit la taille du texte sur mobile */
+        font-size: 1em;
     }
 
     footer {
-        font-size: 0.8em; /* Pied de page encore plus compact */
+        font-size: 0.8em;
         padding: 8px 2%;
     }
-}
-footer ul li a {
-    color: white !important; /* Couleur blanche par défaut */
-    text-decoration: none !important; /* Supprime le soulignement */
-    transition: color 0.3s ease !important; /* Animation douce sur le changement de couleur */
-}
-
-footer ul li a:hover {
-    color: #003366 !important; /* Couleur bleu foncé au survol */
-    transform: translateY(-5px) scale(1.1) !important; /* Lien "vole" et grossit */
-}
-/* Animation au survol */
-.social-media a:hover img {
-    transform: translateY(-5px) !important; /* Remonte légèrement */
-    filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
 }
