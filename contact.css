@@ -83,7 +83,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #003366;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Texte du bas */
