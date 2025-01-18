@@ -11,8 +11,9 @@
 <body>
 
 <header>
-    <h1>Mentions Légales</h1>
-
+    <div class="header-background">
+        <h1>Mentions Légales</h1>
+    </div>
     <nav>
     <ul>
         <li><a href="index.php">Accueil</a></li>
