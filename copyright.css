@@ -1,177 +1,107 @@
-/* Style global de la page Mentions Légales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e8dfd2; /* Beige doux pour le fond général */
-    color: #5a5a5a; /* Texte légèrement foncé pour le contraste */
-    line-height: 1.6;
+    background-color: #f3ece2; /* Couleur beige du reste de la page */
+    color: #333333;
+    line-height: 1.8;
 }
 
 header {
-    position: relative;
-    height: 60vh;
-    background: url('') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header h1 {
-    font-size: 3em;
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.6);
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 10px 20px;
-    border-radius: 8px;
-}
-
-main {
-    padding: 20px;
-    max-width: 1000px;
-    margin: 20px auto;
-    background-color: #e8dfd2; /* Fond beige pour les sections principales */
-    box-shadow: none;
-    border-radius: 8px;
-}
-
-section {
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 1px solid #c8bba9; /* Bordure beige plus foncé */
-    border-radius: 5px;
-    background-color: #e8dfd2; /* Fond uniforme beige */
-}
-
-h2 {
-    text-align: left;
-    color: #5a5a5a;
-    margin-bottom: 15px;
-}
-
-p {
-    margin: 10px 0;
-    text-align: justify;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #c8bba9; /* Beige plus soutenu pour le pied de page */
-    color: #ffffff;
-    margin-top: 20px;
-    font-size: 0.9em;
-    border-top: 2px solid #a49787;
-}
-
-/* Lien sans soulignement et couleur adaptée */
-a {
-    color: #5a5a5a;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #a49787;
-    text-decoration: underline;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f3ece2;
-    color: #456a73;
-    line-height: 1.6;
-}
-
-header {
-    position: relative;
-    height: 60vh;
-    background: url('Parfums.jpg') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header h1 {
-    font-size: 3em;
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.6);
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 10px 20px;
-    border-radius: 8px;
-}
-
-main {
-    padding: 20px;
-    max-width: 1000px;
-    margin: 20px auto;
-    background-color: #f3ece2;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-section {
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 1px solid #d8ddd7;
-    border-radius: 5px;
-    background-color: #f3ece2;
-}
-
-h2 {
-    text-align: left;
-    color: #456a73;
-    margin-bottom: 15px;
-}
-
-p {
-    margin: 10px 0;
-    text-align: justify;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #66959b;
+    background: url('Parfums.jpg') no-repeat center center/cover; /* Image de fond */
+    background-color: #f8f4ed; /* Couleur beige derrière l'image */
     color: #fcf7e3;
-    margin-top: 20px;
-    font-size: 0.9em;
+    height: 80vh; /* Hauteur du header */
+    position: relative; /* Nécessaire pour positionner les éléments */
+    display: flex; /* Centrage du contenu */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column; /* Empile les éléments verticalement */
 }
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte */
+    background-color: rgba(0, 0, 0, 0.3); /* Rectangle gris clair transparent derrière le texte */
+    color: #fcf7e3;
+    border-radius: 8px; /* Arrondi les bords du rectangle */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Améliore la lisibilité */
+    display: inline-block; /* Limite la largeur du fond gris au texte */
+    text-align: center;
+}
+
 header nav {
     background-color: #f3ece2; /* Fond beige sous l'image */
     padding: 20px 0; /* Ajouter un padding pour l'espacement */
     position: relative;
-    margin-top: 0px; /* Augmenter l'espacement entre l'image et le menu */
+    width: 100%; /* S'étire sur toute la largeur de la page */
+    box-sizing: border-box; /* Assure que le padding ne fait pas dépasser l'élément */
+    margin-top: auto;
 }
+
 
 header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
     gap: 20px;
-}
-
-header nav ul li {
-    display: inline;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #f3ece2;
     font-weight: bold;
-    padding: 10px 20px;
-    background-color: rgba(8, 19, 31, 0.4);
-    border-radius: 30px;
+    padding: 8px 15px;
+    border-radius: 20px;
     transition: background-color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #f3ece2;
+    color: #66959b;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #f3ece2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #f3ece2;
+    border-radius: 5px;
+    background-color: #f3ece2;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #456a73;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #66959b;
+    padding-bottom: 5px;
+}
+
+section p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #456a73;
+    color: #fcf7e3;
+    font-size: 0.9em;
+    margin-top: 20px;
 }
