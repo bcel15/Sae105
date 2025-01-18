@@ -143,3 +143,35 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
+header nav {
+    background-color: #f3ece2; /* Fond beige sous l'image */
+    padding: 20px 0; /* Ajouter un padding pour l'espacement */
+    position: relative;
+    margin-top: 0px; /* Augmenter l'espacement entre l'image et le menu */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f3ece2;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgba(8, 19, 31, 0.4);
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
