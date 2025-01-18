@@ -13,8 +13,8 @@ body {
 /* Fond et sections */
 main {
     background-color: #f7f0e6; /* Fond beige pour le contenu principal */
-    margin: 0 auto;
-    padding: 0;
+    margin: 20 auto;
+    padding: 60px 20px;
     width: 100%;
     max-width: 1200px; /* Largeur maximale du contenu */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce pour le conteneur */
@@ -39,6 +39,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: 0; /* Supprime les marges */
+
 }
 
 .header-banner h1 {
@@ -51,18 +52,18 @@ section {
 }
 
 /* Navigation */
+header nav {
+    margin-top: 20px; /* Espace entre le menu et l'image de fond */
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; 
     display: flex;
     justify-content: center;
-    background-color: #456a73;
-    gap: 15px;
-}
-
-header nav ul li {
-    margin: 0;
+    gap: 15px; /* Espace entre les éléments du menu */
+    border-radius: 10px; /* Coins arrondis du menu */
 }
 
 header nav ul li a {
@@ -76,8 +77,17 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #003366;
+    background-color: rgba(0, 0, 0, 0.6);
 }
+
+/* Texte du bas */
+.text-bottom {
+    margin-top: 40px; /* Ajoute un espace entre le menu et le texte du bas */
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
 
 /* Footer Styles */
 footer {
