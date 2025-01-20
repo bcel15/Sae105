@@ -67,7 +67,7 @@
         <section class="contact-details">
             <div class="contact-left">
                 <h3>Notre Adresse</h3>
-                <iframe src="https://www.google.fr/maps/place/E.S.C.+Chamb%C3%A9ry+Savoie,+12+Av.+du+Lac+d'Annecy,+73370+Le+Bourget-du-Lac/@45.6437157,5.8709051,134m/data=!3m1!1e3!4m6!3m5!1s0x478b09ca2b4ca639:0xf1efc7bc8469698f!8m2!3d45.6440131!4d5.8715826!16s%2Fg%2F1tfqk8fg?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <p>12 Rue des Parfums, 75000 Paris, France</p>
             </div>
 
