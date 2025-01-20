@@ -26,6 +26,7 @@
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="catalogue.php">Catalogue</a></li>
                 <li><a href="panier.php">Panier</a></li>
+                <li><a href="creation.php">Création</a></li>
             </ul>
         </nav>
     </header>

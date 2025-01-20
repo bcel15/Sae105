@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3ece2;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-background {
+    background-image: url('image_cp.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+  
+  .options {
+    margin: 10px;
+  }
+  
+  .parfum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative; /* nécessaire pour que le bouchon se positionne correctement */
+  }
+  
+  .flacon {
+    margin-top:20px;
+    width: 150px;
+    height: 200px;
+    background-color: lightgray;
+    transition: all 0.5s ease;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .bouchon {
+    width: 50px;
+    height: 30px;
+    background-color: #b08d57; /* couleur doré/bronze */
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 5px; /* Décale le bouchon au-dessus de la fiole */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%; /* Forme ronde par défaut */
+    z-index: 1;
+  }
+  
+  button {
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Formes de flacons */
+  .flacon.rond {
+    border-radius: 50%;
+  }
+  
+  .flacon.carre {
+    border-radius: 0;
+  }
+  
+  .flacon.hexagonal {
+    clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
+  }
+  
+  /* Formes de bouchons */
+  .bouchon.rond {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #b08d57; /* couleur doré/bronze */
+  }
+  
+  
+  .bouchon.carre {
+    border-radius: 0;
+  }
+  

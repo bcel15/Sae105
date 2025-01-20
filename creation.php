@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Titre de la page affiché dans l'onglet du navigateur -->
-    <title>Accueil - CP Parfums</title>
+    <title>Création - CP Parfums</title>
     <!-- Lien vers le fichier CSS global partagé par tout le site -->
     <link rel="stylesheet" href="styles.css">
     <!-- Lien vers le fichier CSS spécifique à cette page -->
-    <link rel="stylesheet" href="homepage.css"> 
+    <link rel="stylesheet" href="creation.css"> 
 </head>
 <body>
     <header>
@@ -22,7 +22,7 @@
 
         <!-- Image en fond du header -->
         <div class="header-background">
-            <h1>Bienvenue sur CP Parfums</h1>
+            <h1>Créez votre parfum</h1>
         </div>
 
         <!-- Menu de navigation -->
@@ -32,52 +32,55 @@
                 <li><a href="contact.php">Contact</a></li>
                 <li><a href="catalogue.php">Catalogue</a></li>
                 <li><a href="panier.php">Panier</a></li>
-                <li><a href="creation.php">Création</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <!-- Carrousel d'aperçus parfums -->
-        <section>
-            <h2 class="carrousel-title">Meilleures ventes</h2>
-            <div class="carrousel">
-                <div class="carrousel-images">
-                    <img src="photo parfum/parfum blanc.jpg" alt="Parfum 1">
-                    <img src="photo parfum/parfum blanc2.jpg" alt="Parfum 2">
-                    <img src="photo parfum/parfum fleur.jpg" alt="Parfum 3">
-                    <img src="photo parfum/parfum jaune.jpg" alt="Parfum 4">
-                </div>
-            </div>
-        </section>
+        <h2> Pour 104.99 € seulement, créez votre parfum personnalisé ! </h2>
+  <section class="customization">
+    <div class="options">
+      <label for="flacon">Choisissez votre flacon :</label>
+      <input type="radio" id="flacon-rond" name="flacon" value="rond" onclick="changeFlacon('rond')"> Rond
+      <input type="radio" id="flacon-carre" name="flacon" value="carre" onclick="changeFlacon('carre')"> Carré
+      <input type="radio" id="flacon-hexagonal" name="flacon" value="hexagonal" onclick="changeFlacon('hexagonal')"> Hexagonal
+    </div>
 
-        <section>
-            <h2>Notre Collection de Parfums</h2>
-            <p>Découvrez notre collection exclusive de parfums, soigneusement sélectionnés pour répondre à tous les goûts et toutes les occasions.</p>
-            <p>Nous proposons des créations uniques aux fragrances envoûtantes, réalisées par les meilleurs nez du monde. Chaque parfum est une invitation à un voyage sensoriel.</p>
-        </section>
+    <div class="options">
+      <label for="bouchon">Choisissez votre bouchon :</label>
+      <input type="radio" id="bouchon-rond" name="bouchon" value="rond" onclick="changeBouchon('rond')"> Rond
+      <input type="radio" id="bouchon-carre" name="bouchon" value="carre" onclick="changeBouchon('carre')"> Carré
+    </div>
 
-        <!-- Section 2 : Valeurs et engagement de la parfumerie -->
-        <section>
-            <h2>Pourquoi choisir CP Parfums ?</h2>
-            <p>Chez CP Parfums, nous croyons que le parfum est bien plus qu'une simple fragrance. C'est une expression de votre personnalité.</p>
-            <p>Nos produits sont fabriqués à partir d'ingrédients de la plus haute qualité, garantissant une expérience olfactive exceptionnelle.</p>
-        </section>
+    <div class="options">
+      <label for="couleur">Choisissez la couleur :</label>
+      <input type="color" id="couleur" name="couleur" onchange="changeCouleur(this.value)">
+    </div>
 
-        <!-- Vidéo de présentation de la marque -->
-        <section>
-            <h2>Présentation de notre univers</h2>
-            <figure>
-                <video controls>
-                    <source src="Video.mp4" type="video/mp4">
-                    Votre navigateur ne supporte pas la lecture de vidéo.
-                </video>
-                <figcaption>Découvrez notre histoire, nos valeurs, et ce qui rend nos parfums uniques dans cette courte vidéo.</figcaption>
-            </figure>
-        </section>
-    </main>
+    <!-- Nouveau champ pour le nom du parfum -->
+    <div class="options">
+      <label for="nom-parfum">Donnez un nom à votre parfum :</label>
+      <input type="text" id="nom-parfum" name="nom-parfum" placeholder="Ex. Parfum floral">
+    </div>
 
-    <footer>
+    <!-- Nouveau champ pour choisir les odeurs avec une taille réduite -->
+    <div class="options">
+      <label for="odeurs">Quelles odeurs voulez-vous dans votre parfum ?</label>
+      <textarea id="odeurs" name="odeurs" rows="2" placeholder="Décrivez les odeurs ou ingrédients souhaités"></textarea>
+    </div>
+  </section>
+</main>
+
+
+    <section class="parfum">
+      <div id="bouchon" class="bouchon"></div>
+      <div id="flacon" class="flacon"></div>
+      <button id="ajouter" onclick="ajouterPanier()">Ajouter au panier</button>
+    </section>
+
+  </main>
+
+
+  <footer>
         <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 50px; font-size: 18px;">
             <!-- Section Contact (Gauche) -->
             <div style="text-align: center;">
@@ -110,6 +113,7 @@
         <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2025 CP Parfums. Tous droits réservés.</p>
     </footer>
 
-    <script src="homepage.js"></script>
+
+  <script src="creation.js"></script>
 </body>
 </html>
