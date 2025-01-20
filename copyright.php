@@ -41,7 +41,7 @@
 
     <section>
         <h2>Hébergement</h2>
-        <p>L'hébergement du site est assuré par un serveur de l'IUT MMI associé aux départements MMI.<br>
+        <p>L'hébergement du site est assuré par MMI agences.<br>
         Adresse : 28 Av. du Lac d'Annecy, 73370 Le Bourget-du-Lac, France</p>
     </section>
 
