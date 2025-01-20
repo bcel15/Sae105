@@ -19,19 +19,30 @@
         </div>
 
         <!-- Menu de navigation -->
-<nav>
-    <ul>
-        <li><a href="index.php">Accueil</a></li>
-        <li><a href="contact.php">Contact</a></li>
-        <li><a href="catalogue.php">Catalogue</a></li>
-        <li><a href="panier.php">Panier</a></li>
-    </ul>
-</nav>
-
+        <nav>
+            <ul>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="catalogue.php">Catalogue</a></li>
+                <li><a href="panier.php">Panier</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <!-- Section 1 : Présentation de la collection de parfums -->
+        <!-- Carrousel d'aperçus parfums -->
+        <section>
+            <h2 class="carrousel-title">Aperçus Parfums</h2>
+            <div class="carrousel">
+                <div class="carrousel-images">
+                    <img src="photo parfum/parfum blanc.jpg" alt="Parfum 1">
+                    <img src="photo parfum/parfum blanc2.jpg" alt="Parfum 2">
+                    <img src="photo parfum/parfum fleur.jpg" alt="Parfum 3">
+                    <img src="photo parfum/parfum jaune.jpg" alt="Parfum 4">
+                </div>
+            </div>
+        </section>
+
         <section>
             <h2>Notre Collection de Parfums</h2>
             <p>Découvrez notre collection exclusive de parfums, soigneusement sélectionnés pour répondre à tous les goûts et toutes les occasions.</p>
@@ -59,37 +70,38 @@
     </main>
 
     <footer>
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 50px; font-size: 18px;">
-        <!-- Section Contact (Gauche) -->
-        <div style="text-align: center;">
-            <h3 style="font-size: 22px;">Contact</h3>
-            <ul style="list-style: none; padding: 0; line-height: 1.8;">
-                <li>Téléphone : 01 23 45 67 89</li>
-                <li>Email : contact@cpparfums.com</li>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 50px; font-size: 18px;">
+            <!-- Section Contact (Gauche) -->
+            <div style="text-align: center;">
+                <h3 style="font-size: 22px;">Contact</h3>
+                <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                    <li>Téléphone : 01 23 45 67 89</li>
+                    <li>Email : contact@cpparfums.com</li>
+                </ul>
+            </div>
+
+            <!-- Section À propos (Droite) -->
+            <div style="text-align: center;">
+                <h3 style="font-size: 22px;">À propos</h3>
+                <ul style="list-style: none; padding: 0; line-height: 1.8;">
+                    <li>Date de création : 20 décembre 2024</li>
+                    <li>Créateurs : Océane Dickson et Betül Celikoz</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Liens Contact et Mentions Légales centrés -->
+        <div style="text-align: center; margin-top: 16px;">
+            <ul style="list-style: none; padding: 0; line-height: 1.8; display: inline-flex; gap: 20px;">
+                <li><a href="contact.php" style="text-decoration: none; color: #ffffff; font-size: 18px;">Contact</a></li>
+                <li><a href="copyright.php" style="text-decoration: none; color: #ffffff; font-size: 18px;">Mentions Légales</a></li>
             </ul>
         </div>
 
-        <!-- Section À propos (Droite) -->
-        <div style="text-align: center;">
-            <h3 style="font-size: 22px;">À propos</h3>
-            <ul style="list-style: none; padding: 0; line-height: 1.8;">
-                <li>Date de création : 20 décembre 2024</li>
-                <li>Créateurs : Océane Dickson et Betül Celikoz</li>
-            </ul>
-        </div>
-    </div>
+        <!-- Mention Légale centrée en bas -->
+        <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2025 CP Parfums. Tous droits réservés.</p>
+    </footer>
 
-    <!-- Liens Contact et Mentions Légales centrés -->
-    <div style="text-align: center; margin-top: 16px;">
-        <ul style="list-style: none; padding: 0; line-height: 1.8; display: inline-flex; gap: 20px;">
-            <li><a href="contact.php" style="text-decoration: none; color: #ffffff; font-size: 18px;">Contact</a></li>
-            <li><a href="copyright.php" style="text-decoration: none; color: #ffffff; font-size: 18px;">Mentions Légales</a></li>
-        </ul>
-    </div>
-
-    <!-- Mention Légale centrée en bas -->
-    <p style="text-align: center; font-size: 16px; margin-top: 10px;">&copy; 2025 CP Parfums. Tous droits réservés.</p>
-</footer>
-
+    <script src="homepage.js"></script>
 </body>
 </html>

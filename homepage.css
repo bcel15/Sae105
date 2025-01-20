@@ -182,3 +182,30 @@ footer p {
         padding: 8px 2%;
     }
 }
+/* Styles pour le carrousel */
+.carrousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 50%; 
+    gap: 10px; /* Ajout d'un espace entre les images */
+}
+
+.carrousel-images img {
+    width: 100%; /* Prend toute la largeur de l'écran */
+    height: auto; /* Maintient les proportions originales de l'image */
+    max-height: 600px; /* Limite la hauteur pour éviter qu'elle ne soit trop grande */
+    flex-shrink: 0;
+    object-fit: cover; /* Remplit bien la zone visible tout en coupant si nécessaire */
+}
+
+.carrousel-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
