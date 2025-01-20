@@ -39,7 +39,7 @@
     <main>
         <!-- Carrousel d'aperçus parfums -->
         <section>
-            <h2 class="carrousel-title">Aperçus Parfums</h2>
+            <h2 class="carrousel-title">Meilleures ventes</h2>
             <div class="carrousel">
                 <div class="carrousel-images">
                     <img src="photo parfum/parfum blanc.jpg" alt="Parfum 1">
