@@ -5,17 +5,17 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Ajoute cette ligne pour que les éléments se placent verticalement */
+    flex-direction: column; /* Structure verticale */
     justify-content: flex-start; /* Aligne les éléments en haut */
-    align-items: center; /* Centre les éléments horizontalement */
     min-height: 100vh; /* Hauteur minimale de la fenêtre */
 }
 
+/* En-tête */
 header {
     background-color: #f3ece2; /* Si l'image n'est pas chargée */
     color: #f3ece2;
-    padding: 0; /* Ajouter un padding pour l'espacement */
-    margin-top: 0px; /* Ajout d'un espace entre l'image et le menu */
+    padding: 0; /* Supprime le padding */
+    margin-top: 0px;
 }
 
 .header-background {
@@ -24,7 +24,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh; /* Réduit la hauteur pour que l'image s'arrête avant le menu */
+    height: 100vh; /* Hauteur de l'image */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,9 +33,9 @@ header {
 
 header nav {
     background-color: #f3ece2; /* Fond beige sous l'image */
-    padding: 20px 0; /* Ajouter un padding pour l'espacement */
+    padding: 20px 0; /* Espacement vertical */
     position: relative;
-    margin-top: 0px; /* Augmenter l'espacement entre l'image et le menu */
+    margin-top: 0px; /* Pas d'espace entre l'image et le menu */
 }
 
 header nav ul {
@@ -43,7 +43,8 @@ header nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 20px; /* Espacement entre les éléments */
+    justify-content: center;
 }
 
 header nav ul li {
@@ -71,10 +72,10 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
-    width: 90%;  /* Prend une grande partie de l'écran */
+    width: 90%; /* Prend une grande partie de l'écran */
     max-width: 1200px;
     box-sizing: border-box;
-    margin-top: 80px; /* Augmente l'espace au-dessus du tableau pour éviter qu'il se chevauche avec le menu */
+    margin: 80px auto 20px auto; /* Centrer avec des marges */
 }
 
 /* Titre principal */
@@ -121,5 +122,31 @@ button {
 }
 
 button:hover {
-    background-color: #456a73;
+    background-color: #345055;
+}
+
+/* Pied de page */
+footer {
+    background-color: #678c92; /* Couleur de fond */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%; /* Occupe toute la largeur de la page */
+    margin-top: auto; /* Place le footer en bas si peu de contenu */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
