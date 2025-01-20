@@ -13,9 +13,11 @@ header {
     color: #fcf7e3;
     height: 80vh; /* Hauteur du header */
     position: relative; /* Nécessaire pour positionner les éléments */
-    display: flex; /* Active Flexbox */
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
+    display: flex; /* Centrage du contenu */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column; /* Empile les éléments verticalement */
 }
 
 header h1 {
@@ -23,22 +25,23 @@ header h1 {
     font-weight: bold;
     margin: 0;
     padding: 10px 20px; /* Ajoute de l'espace autour du texte */
-    background-color: rgba(0, 0, 0, 0.5); /* Rectangle gris semi-transparent derrière le texte */
+    background-color: rgba(0, 0, 0, 0.3); /* Rectangle gris clair transparent derrière le texte */
     color: #fcf7e3;
     border-radius: 8px; /* Arrondi les bords du rectangle */
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Améliore la lisibilité */
     display: inline-block; /* Limite la largeur du fond gris au texte */
-    text-align: center; /* Centre le texte à l'intérieur */
+    text-align: center;
 }
 
 header nav {
     background-color: #f3ece2; /* Fond beige sous l'image */
-    padding: 20px 0; /* Ajoute un padding pour l'espacement */
+    padding: 20px 0; /* Ajouter un padding pour l'espacement */
     position: relative;
     width: 100%; /* S'étire sur toute la largeur de la page */
     box-sizing: border-box; /* Assure que le padding ne fait pas dépasser l'élément */
     margin-top: auto;
 }
+
 
 header nav ul {
     list-style: none;
