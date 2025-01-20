@@ -10,6 +10,13 @@
 </head>
 <body>
 <header>
+
+    <div class=head-container>
+        <a href="panier.php">
+            <img src="caddie.png" alt="Caddie" class="caddie">
+        </a>
+    </div>
+
     <!-- Image en fond du header -->
     <div class="header-background">
         <h1>Notre catalogue</h1>
