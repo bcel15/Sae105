@@ -39,9 +39,10 @@ function retirerDuPanier(index) {
 }
 
 // Gérer le clic sur le bouton "Valider le panier"
-document.getElementById("validerPanier").addEventListener("click", () => {
+document.getElementById("validerPanier").addEventListener("click", (event) => {
     if (panier.length === 0) {
         alert("Votre panier est vide !");
+        event.preventDefault(); // Empêche toute redirection ou comportement par défaut
     } else {
         window.location.href = "paiement.html"; // Rediriger vers la page de paiement
     }
