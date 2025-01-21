@@ -35,6 +35,39 @@ header h1 {
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgba(8, 19, 31, 0.4);
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.pr {
+
+    text-align : center;
+    margin-top : 50px;
+}
   
   .options {
     margin: 10px;

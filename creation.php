@@ -36,7 +36,7 @@
         </nav>
     </header>
     <main>
-        <h2> Pour 104.99 € seulement, créez votre parfum personnalisé ! </h2>
+        <h2 id="pr"> Pour 104.99 € seulement, créez votre parfum personnalisé ! </h2>
   <section class="customization">
     <div class="options">
       <label for="flacon">Choisissez votre flacon :</label>
