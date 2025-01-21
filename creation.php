@@ -36,8 +36,9 @@
         </nav>
     </header>
     <main>
-        <h2 id="pr"> Pour 104.99 € seulement, créez votre parfum personnalisé ! </h2>
+    
   <section class="customization">
+    <h2>Personnalisez votre parfum pour 140.99 €</h2>
     <div class="options">
       <label for="flacon">Choisissez votre flacon :</label>
       <input type="radio" id="flacon-rond" name="flacon" value="rond" onclick="changeFlacon('rond')"> Rond
@@ -74,7 +75,13 @@
     <section class="parfum">
       <div id="bouchon" class="bouchon"></div>
       <div id="flacon" class="flacon"></div>
-      <button id="ajouter" onclick="ajouterPanier()">Ajouter au panier</button>
+      <div class="options">
+        <button onclick="ajouterPanier()">Ajouter au panier</button>
+    </div>
+    <!-- Pop-up en haut à droite pour confirmation -->
+    <div id="cart-popup" class="cart-popup hidden">
+            <p id="cart-message"></p>
+        </div>
     </section>
 
   </main>
@@ -115,5 +122,7 @@
 
 
   <script src="creation.js"></script>
+  <script src="catalogue.js"></script>
+
 </body>
 </html>

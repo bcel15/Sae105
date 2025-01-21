@@ -17,6 +17,12 @@ function changeFlacon(type) {
   }
   
   function ajouterPanier() {
+    // Récupérer les valeurs du nom et du prix du parfum
+    const name = document.getElementById('nom-parfum').value;
+  
+    // Appeler la fonction addToCart
+    addToCart(name, 140.99, event);
+  
     alert('Votre parfum a été ajouté au panier !');
   }
   

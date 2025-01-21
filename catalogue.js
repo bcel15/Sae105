@@ -40,7 +40,7 @@ function showCartPopup(name) {
 function addToCart(name, price, event) {
     // Empêcher le comportement par défaut du bouton (éviter qu'il recharge la page)
     event.preventDefault();
-
+    console.log(`Ajouté au panier: ${name} pour ${price} €`);
     // Récupérer le panier existant depuis localStorage
     const panier = JSON.parse(localStorage.getItem('panier')) || [];
     
@@ -49,9 +49,7 @@ function addToCart(name, price, event) {
     
     // Mettre à jour localStorage
     localStorage.setItem('panier', JSON.stringify(panier));
-    
-    console.log(`Ajouté au panier: ${name} pour ${price} €`);
-    
+        
     // Afficher la pop-up de confirmation
     showCartPopup(name);
 }

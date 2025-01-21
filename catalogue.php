@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogue - CP Parfums</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="catalogue.css">
-    <script defer src="catalogue.js"></script>
+    <link rel="stylesheet" href="catalogue.css" 
 </head>
 <body>
 <header>
