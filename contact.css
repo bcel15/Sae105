@@ -148,8 +148,8 @@ footer ul li a:hover {
 
 /* Changement de couleur bleu foncé au survol */
 .social-media a:hover img {
-    filter: !important brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(900%) hue-rotate(220deg) brightness(120%) contrast(100%);
-    transform: !important translateY(-5px); /* Légère remontée au survol */
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(900%) hue-rotate(220deg) brightness(120%) contrast(100%);
+    transform:  translateY(-5px); /* Légère remontée au survol */
 }
 
 footer p {
