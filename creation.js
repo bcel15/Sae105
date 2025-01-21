@@ -22,7 +22,6 @@ function changeFlacon(type) {
   
     // Appeler la fonction addToCart
     addToCart(name, 140.99, event);
-  
+
     alert('Votre parfum a été ajouté au panier !');
   }
-  
