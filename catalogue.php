@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogue - CP Parfums</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="catalogue.css" 
+    <link rel="stylesheet" href="catalogue.css">
 </head>
 <body>
 <header>
@@ -18,7 +18,9 @@
 
     <!-- Image en fond du header -->
     <div class="header-background">
-        <h1>Notre catalogue</h1>
+        <a href="#nos-parfums" class="no-link-style">
+            <h1>Notre catalogue</h1>
+        </a>
     </div>
 
     <!-- Menu de navigation -->

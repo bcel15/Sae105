@@ -22,7 +22,9 @@
 
         <!-- Image en fond du header -->
         <div class="header-background">
-            <h1>Bienvenue sur CP Parfums</h1>
+            <a href="#section-suivante" class="no-link-style">
+                <h1>Bienvenue sur CP Parfums</h1>
+            </a>
         </div>
 
         <!-- Menu de navigation -->
@@ -39,7 +41,7 @@
 
     <main>
         <!-- Carrousel d'aperçus parfums -->
-        <section>
+        <section id="section-suivante">
             <h2 class="carrousel-title">Meilleures ventes</h2>
             <div class="carrousel">
                 <div class="carrousel-images">

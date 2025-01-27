@@ -229,6 +229,21 @@ footer p {
     filter: grayscale(0%) brightness(1.2) sepia(100%) hue-rotate(200deg) saturate(150%) !important;
 }
 
+/* Enlève le soulignement et garde la couleur du texte */
+.no-link-style {
+    text-decoration: none; /* Pas de soulignement */
+    color: inherit; /* Hérite de la couleur du texte environnant */
+    transition: transform 0.3s ease, color 0.3s ease; /* Animation douce */
+}
+
+/* Effet au survol : le texte flotte légèrement */
+.no-link-style:hover {
+    transform: translateY(-5px); /* Déplace le lien vers le haut de 5px */
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+}
+
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     header h1 {
@@ -236,8 +251,22 @@ footer p {
     }
 
     nav ul {
-        gap: 15px;
-        flex-direction: column;
+        display: flex;
+        flex-direction: row; /* Les rubriques restent horizontales */
+        justify-content: space-around; /* Répartit les rubriques également sur la largeur */
+        padding: 0;
+        margin: 0;
+        width: 100%; /* Le menu occupe toute la largeur */
+        overflow: hidden; /* Empêche le débordement */
+    }
+
+    nav ul li {
+        flex: 1; /* Les rubriques partagent l'espace disponible */
+        text-align: center; /* Centre le texte des rubriques */
+        font-size: calc(1em - 0.2vw); /* Réduit dynamiquement la taille de la police selon la largeur de l'écran */
+        white-space: nowrap; /* Empêche les rubriques de se briser en plusieurs lignes */
+        overflow: hidden; /* Cache le contenu qui dépasse si nécessaire */
+        text-overflow: ellipsis; /* Ajoute "..." si le contenu est trop long */
     }
 
     section p {

@@ -22,7 +22,9 @@
 
         <!-- Image en fond du header -->
         <div class="header-background">
+          <a href="#section-suivante" class="no-link-style">
             <h1>Créez votre parfum</h1>
+          </a>
         </div>
 
         <!-- Menu de navigation -->
@@ -37,7 +39,7 @@
     </header>
     <main>
     
-  <section class="customization">
+  <section id="section-suivante" class="customization">
     <h2>Personnalisez votre parfum pour 140.99 €</h2>
     <div class="options">
       <label for="flacon">Choisissez votre flacon :</label>
