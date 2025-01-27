@@ -1,12 +1,14 @@
 // Récupérer le panier depuis localStorage
 const panier = JSON.parse(localStorage.getItem('panier')) || [];
 
-// Sélectionner le corps du tableau dans la page panier
+// Sélectionner le corps et le pied du tableau dans la page panier
 const tableBody = document.querySelector("#panier tbody");
+const totalElement = document.getElementById("total");
 
 // Fonction pour afficher les articles du panier dans le tableau
 function afficherPanier() {
     tableBody.innerHTML = ""; // Réinitialiser le contenu du tableau
+    let total = 0; // Initialiser le total
 
     panier.forEach((item, index) => {
         // Créer une nouvelle ligne pour chaque article
@@ -19,7 +21,13 @@ function afficherPanier() {
         `;
 
         tableBody.appendChild(row); // Ajouter la ligne au tableau
+
+        // Ajouter le prix de l'article au total
+        total += item.prix;
     });
+
+    // Afficher le total dans la ligne dédiée
+    totalElement.textContent = `${total.toFixed(2)} €`;
 
     // Si le panier est vide, afficher un message
     if (panier.length === 0) {
@@ -28,6 +36,7 @@ function afficherPanier() {
             <td colspan="3" style="text-align: center;">Votre panier est vide.</td>
         `;
         tableBody.appendChild(emptyRow);
+        totalElement.textContent = "0 €"; // Réinitialiser le total
     }
 }
 
