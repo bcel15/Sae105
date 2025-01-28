@@ -36,7 +36,7 @@
 
 <main>
     <section id="nos-parfums">
-        <h1>Nos Parfums</h1>
+        <h2 style="font-size: 2em; font-weight: bold;">Nos Parfums</h2>
         <div class="parfums-container">
             <div class="parfum" onclick="showDetails('parfum1')">
                 <img src="photo_parfum/parfum_rose.jpg" alt="Parfum Élégance">
@@ -202,7 +202,7 @@
 
     <section id="details-parfum" class="hidden">
         <div class="popup-content">
-            <img id="details-image" src="" alt="Image du parfum">
+            <img id="details-image" src="#" alt="Image du parfum">
             <h2 id="details-title">Titre du Parfum</h2>
             <p id="details-description">Description du parfum.</p>
             <p id="details-prix">Prix: </p>
