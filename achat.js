@@ -17,3 +17,4 @@ form.addEventListener('submit', function(event) {
         alert('Veuillez remplir tous les champs.');
     }
 });
+test
