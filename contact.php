@@ -77,7 +77,7 @@
         <section class="contact-details">
             <div class="contact-left">
                 <h3>Notre Adresse</h3>
-                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?..." style="width: 100%; border:0;" height="300" allowfullscreen="" loading="lazy"></iframe>
                 <p>12 Rue des Parfums, 75000 Paris, France</p>
             </div>
 
