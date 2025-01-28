@@ -117,6 +117,7 @@
                 <span class="reply">Répondre</span>
             </div>
         </div>
+        <a href="index.php">Retour à l'accueil</a>
     </div>
 </body>
 </html>

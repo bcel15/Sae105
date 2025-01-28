@@ -23,6 +23,7 @@
             <button type="submit">Valider et payer</button>
         </form>
         <div class="success-message" id="successMessage">Commande passée avec succès !</div>
+        <a href="index.php">Retour à l'accueil</a>
     </div>
     <script src="achat.js"></script>
 </body>
