@@ -42,14 +42,14 @@
   <section id="section-suivante" class="customization">
     <h2>Personnalisez votre parfum pour 140.99 €</h2>
     <div class="options">
-      <label for="flacon">Choisissez votre flacon :</label>
+      <label for="flacon-rond">Choisissez votre flacon :</label>
       <input type="radio" id="flacon-rond" name="flacon" value="rond" onclick="changeFlacon('rond')"> Rond
       <input type="radio" id="flacon-carre" name="flacon" value="carre" onclick="changeFlacon('carre')"> Carré
       <input type="radio" id="flacon-hexagonal" name="flacon" value="hexagonal" onclick="changeFlacon('hexagonal')"> Hexagonal
     </div>
 
     <div class="options">
-      <label for="bouchon">Choisissez votre bouchon :</label>
+      <label for="bouchon-rond">Choisissez votre bouchon :</label>
       <input type="radio" id="bouchon-rond" name="bouchon" value="rond" onclick="changeBouchon('rond')"> Rond
       <input type="radio" id="bouchon-carre" name="bouchon" value="carre" onclick="changeBouchon('carre')"> Carré
     </div>
@@ -72,7 +72,10 @@
     </div>
   </section>
 
-    <section id="choix" class="parfum">
+    <section class="parfum">
+    <h2 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">
+        Aperçu de votre parfum
+    </h2>
       <div id="bouchon" class="bouchon"></div>
       <div id="flacon" class="flacon"></div>
       <div class="options">
