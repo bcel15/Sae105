@@ -45,10 +45,10 @@
             <h2 class="carrousel-title">Meilleures ventes</h2>
             <div class="carrousel">
                 <div class="carrousel-images">
-                    <img src="photo parfum/parfum blanc.jpg" alt="Parfum 1">
-                    <img src="photo parfum/parfum blanc2.jpg" alt="Parfum 2">
-                    <img src="photo parfum/parfum fleur.jpg" alt="Parfum 3">
-                    <img src="photo parfum/parfum jaune.jpg" alt="Parfum 4">
+                    <img src="photo_parfum/parfum_blanc.jpg" alt="Parfum 1">
+                    <img src="photo_parfum/parfum_blanc2.jpg" alt="Parfum 2">
+                    <img src="photo_parfum/parfum_fleur.jpg" alt="Parfum 3">
+                    <img src="photo_parfum/parfum_jaune.jpg" alt="Parfum 4">
                 </div>
             </div>
         </section>
