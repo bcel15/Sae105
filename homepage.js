@@ -10,3 +10,4 @@ function defilerCarrousel() {
 
 // Défilement automatique toutes les 3 secondes
 setInterval(defilerCarrousel, 3000);
+

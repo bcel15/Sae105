@@ -18,7 +18,9 @@
         </div>
 
         <div class="header-banner">
-            <h1>Magasin de Parfums</h1>
+            <a href="#section-suivante" class="no-link-style">
+                <h1>Contactez nous</h1>
+            </a>
         </div>
 
         <nav>
@@ -32,7 +34,7 @@
     </header>
 
     <main>
-        <section class="hero-contact">
+        <section id="section-suivante" class="hero-contact">
             <div class="hero-image">
                 <h2>BESOIN D'UNE INFO ? NOUS SOMMES LÀ POUR Y RÉPONDRE !</h2>
             </div>

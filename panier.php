@@ -10,7 +10,9 @@
 <body>
     <header>
         <div class="header-background">
-            <h1>Panier</h1>
+            <a href="#panier" class="no-link-style">
+                <h1>Panier</h1>
+            </a>
         </div>
         <nav>
             <ul>

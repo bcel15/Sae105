@@ -64,7 +64,7 @@
             <a href="index.php">Retour à l'accueil</a>
         </div>
         <div class="image">
-            <img src="photo 404.png" alt="Image 404">
+            <img src="photo_404.png" alt="Image 404">
         </div>
     </div>
 </body>

@@ -12,7 +12,9 @@
 
 <header>
     <div class="header-background">
-        <h1>Mentions Légales</h1>
+        <a href="#section-suivante" class="no-link-style">
+            <h1>Mentions Légales</h1>
+        </a>
     </div>
     <nav>
     <ul>
@@ -27,7 +29,7 @@
 </header>
 
 <main>
-    <section>
+    <section id="section-suivante">
         <h2>Responsable de la publication</h2>
         <p>Ce site internet est édité par CP parfums<br>
         Adresse : 28 Av. du Lac d'Annecy, 73370 Le Bourget-du-Lac</p>
