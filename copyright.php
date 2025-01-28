@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="copyright.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mentions Légales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="copyright.css">
     
 </head>
 <body>
