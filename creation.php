@@ -71,15 +71,13 @@
       <textarea id="odeurs" name="odeurs" rows="2" placeholder="Décrivez les odeurs ou ingrédients souhaités"></textarea>
     </div>
   </section>
-</main>
 
-
-    <section class="parfum">
+    <section id="choix" class="parfum">
       <div id="bouchon" class="bouchon"></div>
       <div id="flacon" class="flacon"></div>
       <div class="options">
         <button onclick="ajouterPanier()">Ajouter au panier</button>
-    </div>
+      </div>
     <!-- Pop-up en haut à droite pour confirmation -->
     <div id="cart-popup" class="cart-popup hidden">
             <p id="cart-message"></p>
@@ -87,7 +85,6 @@
     </section>
 
   </main>
-
 
   <footer>
         <!-- Liens Contact et Mentions Légales centrés -->
